@@ -15,8 +15,11 @@ LilyGo_Class amoled;
 static lv_obj_t* tileview;
 static lv_obj_t* t1;
 static lv_obj_t* t2;
+static lv_obj_t* t3;
 static lv_obj_t* t1_label;
+static lv_obj_t* t1_project_name;
 static lv_obj_t* t2_label;
+static lv_obj_t* t3_label;
 static bool t2_dark = false;  // start tile #2 in light mode
 
 // Function: Tile #2 Color change
@@ -48,26 +51,42 @@ static void create_ui()
   // Add two horizontal tiles
   t1 = lv_tileview_add_tile(tileview, 0, 0, LV_DIR_HOR);
   t2 = lv_tileview_add_tile(tileview, 1, 0, LV_DIR_HOR);
+  t3 = lv_tileview_add_tile(tileview, 2, 0, LV_DIR_HOR);
 
   // Tile #1
   {
+    t1_project_name = lv_label_create(t1);
     t1_label = lv_label_create(t1);
-    lv_label_set_text(t1_label, "Hello Students");
-    lv_obj_set_style_text_font(t1_label, &lv_font_montserrat_28, 0);
-    lv_obj_center(t1_label);
+    lv_obj_set_y(t1_label, 150);
+    lv_obj_set_y(t1_project_name, 70);
+    lv_label_set_text(t1_project_name, "Public transport information and \ninteraction on ESP32");
+    lv_label_set_text(t1_label, "v.0.0\n Group 09\n Saga Lindqvist, Olle Andersson,\n Josefine Johnsson, Mahmmod Sulaiman, \nOlof Carlander");
+    lv_obj_set_style_text_font(t1_label, &lv_font_montserrat_18, 0);
+    lv_obj_set_style_text_font(t1_project_name, &lv_font_montserrat_28, 0);
+    lv_obj_set_style_text_decor(t1_project_name, LV_TEXT_DECOR_UNDERLINE, 0);
+    lv_obj_set_style_align(t1_label, LV_TEXT_ALIGN_CENTER, 0);
+    lv_obj_set_style_align(t1_project_name, LV_TEXT_ALIGN_CENTER, 0);
     apply_tile_colors(t1, t1_label, /*dark=*/false);
   }
 
   // Tile #2
   {
     t2_label = lv_label_create(t2);
-    lv_label_set_text(t2_label, "Welcome to the workshop");
+    lv_label_set_text(t2_label, "Welcome to GROUP 9!!!");
     lv_obj_set_style_text_font(t2_label, &lv_font_montserrat_28, 0);
     lv_obj_center(t2_label);
 
     apply_tile_colors(t2, t2_label, /*dark=*/false);
     lv_obj_add_flag(t2, LV_OBJ_FLAG_CLICKABLE);
     lv_obj_add_event_cb(t2, on_tile2_clicked, LV_EVENT_CLICKED, NULL);
+  }
+
+  // Tile #3
+  {
+    t3_label = lv_label_create(t3);
+    lv_label_set_text(t3_label, "Welcome to GROUP 9!!!!!");
+    lv_obj_set_style_text_font(t3_label, &lv_font_montserrat_28, 0);
+    lv_obj_center(t3_label);
   }
 }
 
@@ -79,7 +98,7 @@ static void connect_wifi()
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
   const uint32_t start = millis();
-  while (WiFi.status() != WL_CONNECTED && (millis() - start) < 15000) {
+  while (WiFi.status() != WL_CONNECTED && (millis() - start) < 7000) {
     delay(250);
   }
   Serial.println();
