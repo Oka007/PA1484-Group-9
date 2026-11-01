@@ -16,10 +16,12 @@ static lv_obj_t* tileview;
 static lv_obj_t* t1;
 static lv_obj_t* t2;
 static lv_obj_t* t3;
+static lv_obj_t* t4;
 static lv_obj_t* t1_label;
 static lv_obj_t* t1_project_name;
 static lv_obj_t* t2_label;
 static lv_obj_t* t3_label;
+static lv_obj_t* t4_label;
 static bool t2_dark = false;  // start tile #2 in light mode
 
 // Function: Tile #2 Color change
@@ -48,10 +50,12 @@ static void create_ui()
   lv_obj_set_size(tileview, lv_disp_get_hor_res(NULL), lv_disp_get_ver_res(NULL));
   lv_obj_set_scrollbar_mode(tileview, LV_SCROLLBAR_MODE_OFF);
 
+  t4 = lv_tileview_add_tile(tileview, 0, 0, LV_DIR_BOTTOM);
+
   // Add two horizontal tiles
-  t1 = lv_tileview_add_tile(tileview, 0, 0, LV_DIR_HOR);
-  t2 = lv_tileview_add_tile(tileview, 1, 0, LV_DIR_HOR);
-  t3 = lv_tileview_add_tile(tileview, 2, 0, LV_DIR_HOR);
+  t1 = lv_tileview_add_tile(tileview, 0, 1, LV_DIR_RIGHT  | LV_DIR_TOP);
+  t2 = lv_tileview_add_tile(tileview, 1, 1, LV_DIR_LEFT | LV_DIR_RIGHT | LV_DIR_TOP);
+  t3 = lv_tileview_add_tile(tileview, 2, 1, LV_DIR_LEFT | LV_DIR_TOP);
 
   // Tile #1
   {
@@ -88,6 +92,15 @@ static void create_ui()
     lv_obj_set_style_text_font(t3_label, &lv_font_montserrat_28, 0);
     lv_obj_center(t3_label);
   }
+
+  // Tile #4 
+  {
+    t4_label = lv_label_create(t4);
+    lv_label_set_text(t4_label, "Dez nuts");
+    lv_obj_set_style_text_font(t4_label, &lv_font_montserrat_28, 0);
+    lv_obj_center(t4_label);
+  }
+  lv_obj_set_tile(tileview, t1, LV_ANIM_OFF);
 }
 
 // Function: Connects to WIFI
