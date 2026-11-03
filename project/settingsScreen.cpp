@@ -8,14 +8,14 @@ TFT_eSPI tft = TFT_eSPI(); // Skapar ett TFT-objekt
 XPT2046_Touchscreen ts(TOUCH_CS); // Skapar ett touch-objekt med CS-pin
 
 // Dropdown-data. And the stops (not don)
-const char* options[] = {"AWA vägen", "Af Chapmangymnasiet", "Afvelsgärdevägen"};
+const char* options[] = {"AWA vägen", "Af Chapmangymnasiet", "Afvelsgärdevägen","Alamedan","Allatorp","Allatorp norra", "Allatorps gård", "Allasjösmåla", "Allévägen","Almvägen", "Almöbron", "Alnaryd", "Amiralen", "Amiralitetstorget", "Angöringen"};
 int selectedIndex = 0;
 bool dropdownOpen = false;
 
 void setup() {
-  tft.init();           // Initierar skärmen
-  tft.setRotation(1);   // Sätter skärmens orientering
-  ts.begin();           // Initierar touchkontrollern
+  tft.init();           
+  tft.setRotation(1);   
+  ts.begin();           
 
   drawDropdown();       // Making the dropdown-desplay 
 }
@@ -54,7 +54,7 @@ void drawDropdown() {
   tft.fillRect(20, 20, 180, 30, TFT_WHITE);
   tft.drawString(options[selectedIndex], 25, 25);
 
-  // Om dropdown är öppen, rita alternativen
+  // if dopdown is open show the altenertivs 
   if (dropdownOpen) {
     for (int i = 0; i < 3; i++) {
       tft.fillRect(20, 50 + i * 30, 180, 30, TFT_WHITE);
@@ -65,7 +65,7 @@ void drawDropdown() {
 
 // for nowe it's set to all
 int transportTyp = 0;
-    //creating a drop down class 
+    
 
 
 
