@@ -57,7 +57,7 @@ void drawDropdown() {
   // Om dropdown är öppen, rita alternativen
   if (dropdownOpen) {
     for (int i = 0; i < 3; i++) {
-      tft.fillRect(20, 50 + i * 30, 180, 30, TFT_DARKGREY);
+      tft.fillRect(20, 50 + i * 30, 180, 30, TFT_WHITE);
       tft.drawString(options[i], 25, 55 + i * 30);
     }
   }
