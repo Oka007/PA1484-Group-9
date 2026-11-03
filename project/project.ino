@@ -7,14 +7,17 @@
 #include <LilyGo_AMOLED.h>
 #include <LV_Helper.h>
 #include <lvgl.h>
+#include <cstdio>
 
 #include "secrets.h"
+
 
 LilyGo_Class amoled;
 
 #include "ui.h"
 #include "departureScreen.h"
 #include "settingsScreen.h"
+#include "connectionStatus.h"
 
 // Function: Connects to WIFI
 static void connect_wifi()
@@ -58,4 +61,7 @@ void loop()
 {
   lv_timer_handler();
   delay(5);
+
+  int wifiStrength = get_wifi_strength();
+  update_wifi_display(wifiStrength);
 }

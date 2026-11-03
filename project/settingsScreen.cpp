@@ -1,4 +1,7 @@
 #include "settingsScreen.h"
+
+/* 
+
 #include <TFT_eSPI.h>      // Grafikkbibliotek för TFT
 #include <XPT2046_Touchscreen.h> // Touchbibliotek   vet inte vilken det sak vara ska stå på boxen av aparaten 
 
@@ -73,18 +76,22 @@ int transportTyp = 0;
 
 
 // inte säker hur jag ska få det övre och deta och gå i hop 
+*/
 
+
+lv_obj_t* wifiStatus = nullptr;
 // Create the settings screen UI
 void create_settings_screen(lv_obj_t* settingsTile)
 {
     lv_obj_t* title = lv_label_create(settingsTile);
     lv_label_set_text(title, "Settings");
-
-    
-
-
     
     lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 20);
+
+    // Connection status area
+    wifiStatus = lv_label_create(settingsTile);
+    lv_label_set_text(wifiStatus, "WiFi Connection: 0%");
+    lv_obj_align(wifiStatus, LV_ALIGN_TOP_RIGHT, -5, 5);
 
     
 }
