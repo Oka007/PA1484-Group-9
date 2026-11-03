@@ -21,20 +21,23 @@ void setup() {
 }
 
 void loop() {
+    // sheck what was tutsht 
   if (ts.touched()) {
     TS_Point p = ts.getPoint();
     int x = p.x;
     int y = p.y;
 
     // if dopdown isent showing 
-    if (!dropdownOpen && y > 20 && y < 50 && x > 20 && x < 200) {
+    if (!dropdownOpen && y > 20 && y < 50 && x > 20 && x < 200) // may ned to shanshe 
+    {
       dropdownOpen = true;
       drawDropdown();
     }
     // if dropsown is showowing and an opten is prest 
     else if (dropdownOpen) {
       for (int i = 0; i < 3; i++) {
-        if (y > (50 + i * 30) && y < (80 + i * 30) && x > 20 && x < 200) {
+        if (y > (50 + i * 30) && y < (80 + i * 30) && x > 20 && x < 200) //may ned to schanshe 
+        {
           selectedIndex = i;
           dropdownOpen = false;
           drawDropdown();
@@ -69,7 +72,7 @@ int transportTyp = 0;
 
 
 
-
+// inte säker hur jag ska få det övre och deta och gå i hop 
 
 // Create the settings screen UI
 void create_settings_screen(lv_obj_t* settingsTile)
