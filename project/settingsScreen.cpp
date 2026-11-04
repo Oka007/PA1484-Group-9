@@ -1,89 +1,39 @@
 #include "settingsScreen.h"
 //#include "project.ino"
 #include "secrets.h"
-/* 
-
-#include <TFT_eSPI.h>      // Grafikkbibliotek för TFT
-#include <XPT2046_Touchscreen.h> // Touchbibliotek   vet inte vilken det sak vara ska stå på boxen av aparaten 
-
-
-// Gjorde vad internät säger att man ska göra 
-TFT_eSPI tft = TFT_eSPI(); // Skapar ett TFT-objekt
-XPT2046_Touchscreen ts(TOUCH_CS); // Skapar ett touch-objekt med CS-pin
-
-// Dropdown-data. And the stops (not don)
-const char* options[] = {"AWA vägen", "Af Chapmangymnasiet", "Afvelsgärdevägen","Alamedan","Allatorp","Allatorp norra", "Allatorps gård", "Allasjösmåla", "Allévägen","Almvägen", "Almöbron", "Alnaryd", "Amiralen", "Amiralitetstorget", "Angöringen"};
-int selectedIndex = 0;
-bool dropdownOpen = false;
-
-void setup() {
-  tft.init();           
-  tft.setRotation(1);   
-  ts.begin();           
-
-  drawDropdown();       // Making the dropdown-desplay 
-}
-
-void loop() {
-    // sheck what was tutsht 
-  if (ts.touched()) {
-    TS_Point p = ts.getPoint();
-    int x = p.x;
-    int y = p.y;
-
-    // if dopdown isent showing 
-    if (!dropdownOpen && y > 20 && y < 50 && x > 20 && x < 200) // may ned to shanshe 
-    {
-      dropdownOpen = true;
-      drawDropdown();
-    }
-    // if dropsown is showowing and an opten is prest 
-    else if (dropdownOpen) {
-      for (int i = 0; i < 3; i++) {
-        if (y > (50 + i * 30) && y < (80 + i * 30) && x > 20 && x < 200) //may ned to schanshe 
-        {
-          selectedIndex = i;
-          dropdownOpen = false;
-          drawDropdown();
-          Serial.printf("Selected: %s\n", options[selectedIndex]);
-        }
-      }
-    }
-  }
-}
-
-void drawDropdown() {
-  tft.fillScreen(TFT_WHITE);
-  tft.setTextColor(TFT_BLACK, TFT_WHITE);
-  tft.setTextDatum(TL_DATUM);
-
-  // Rita huvudfältet
-  tft.fillRect(20, 20, 180, 30, TFT_WHITE);
-  tft.drawString(options[selectedIndex], 25, 25);
-
-  // if dopdown is open show the altenertivs 
-  if (dropdownOpen) {
-    for (int i = 0; i < 3; i++) {
-      tft.fillRect(20, 50 + i * 30, 180, 30, TFT_WHITE);
-      tft.drawString(options[i], 25, 55 + i * 30);
-    }
-  }
-}
-
-// for nowe it's set to all
-int transportTyp = 0;
-    
-
-
-
-// inte säker hur jag ska få det övre och deta och gå i hop 
-*/
-
 
 lv_obj_t* wifiStatus = nullptr;
+
+//Makes an event based on what changes with the stations drop box 
+static void event_handler_stops(lv_event_t * e)
+{
+  //Changes the former station to the one selected
+    lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * obj = lv_event_get_target(e);
+    if(code == LV_EVENT_VALUE_CHANGED) {
+        char buf[32];
+        lv_dropdown_get_selected_str(obj, buf, sizeof(buf));
+        LV_LOG_USER("Option: %s", buf);
+    }
+}
+//Makes an event based on what changes with the transporttypes drop box
+static void event_handler_transport(lv_event_t * e)
+{
+  //Changes the former tranporttype to the one selected
+    lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * obj = lv_event_get_target(e);
+    if(code == LV_EVENT_VALUE_CHANGED) {
+        char buf[32];
+        lv_dropdown_get_selected_str(obj, buf, sizeof(buf));
+        LV_LOG_USER("Option: %s", buf);
+    }
+}
+
 // Create the settings screen UI
 void create_settings_screen(lv_obj_t* settingsTile)
 {
+
+
     lv_obj_t* title = lv_label_create(settingsTile);
     lv_label_set_text(title, "Settings");
     
@@ -94,5 +44,40 @@ void create_settings_screen(lv_obj_t* settingsTile)
     lv_label_set_text(wifiStatus, "WiFi Connection: 0%");
     lv_obj_align(wifiStatus, LV_ALIGN_TOP_RIGHT, -5, 5);
 
+    //Create a drop down list for stations
+    lv_obj_t * stop_list = lv_dropdown_create(settingsTile);
+    lv_dropdown_set_options(stop_list, "station 1\n"
+                            "station 2\n"
+                            "station 3\n"
+                            "station 4\n"
+                            "station 5\n"
+                            "station 6\n"
+                            "station 7\n"
+                            "station 8\n"
+                            "station 9\n"
+                            "station 10\n"
+                            "station 11\n"
+                            "station 12\n"
+                            "station 13");
     
+    //Set the size and position of drop down list for stations
+    lv_obj_set_size(stop_list, 150, 50);
+    lv_obj_align(stop_list, LV_ALIGN_TOP_LEFT, 50, 70);
+
+    //Makes an event happen every time a change happens in the list for stations
+    lv_obj_add_event_cb(stop_list, event_handler_stops, LV_EVENT_ALL, NULL);
+
+    //Creates a drop down list for transporttypes 
+    lv_obj_t * transport_list = lv_dropdown_create(settingsTile);
+    lv_dropdown_set_options(transport_list, "all\n"
+                            "boat\n"
+                            "buss\n"
+                            "train");
+    
+    //Set the size and position of drop down list for tranporttypes
+    lv_obj_set_size(transport_list, 150, 50);
+    lv_obj_align(transport_list, LV_ALIGN_TOP_LEFT, 210, 70);
+
+    //Makes an event happen every time a change happens in the list for transporttypes
+    lv_obj_add_event_cb(transport_list, event_handler_transport, LV_EVENT_ALL, NULL);
 }
