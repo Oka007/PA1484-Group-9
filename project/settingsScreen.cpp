@@ -1,6 +1,7 @@
 #include "settingsScreen.h"
 //#include "project.ino"
 #include "secrets.h"
+#include "saveSettings.h"
 
 lv_obj_t* wifiStatus = nullptr;
 
@@ -14,6 +15,10 @@ static void event_handler_stops(lv_event_t * e)
         char buf[32];
         lv_dropdown_get_selected_str(obj, buf, sizeof(buf));
         LV_LOG_USER("Option: %s", buf);
+
+        // Change stored setting
+        int selectedVal = lv_dropdown_get_selected(obj);
+        preferences.putInt("selectedStop", selectedVal);
     }
 }
 //Makes an event based on what changes with the transporttypes drop box
@@ -27,6 +32,9 @@ static void event_handler_transport(lv_event_t * e)
         lv_dropdown_get_selected_str(obj, buf, sizeof(buf));
         LV_LOG_USER("Option: %s", buf);
     }
+    // Change stored setting
+        int selectedVal = lv_dropdown_get_selected(obj);
+        preferences.putInt("selectedTransport", selectedVal);
 }
 
 // Create the settings screen UI
@@ -60,6 +68,10 @@ void create_settings_screen(lv_obj_t* settingsTile)
                             "station 12\n"
                             "station 13");
     
+    // Set selected stop to saved settings during startup
+    int selectedStop = preferences.getInt("selectedStop");
+    lv_dropdown_set_selected(stop_list, selectedStop);
+
     //Set the size and position of drop down list for stations
     lv_obj_set_size(stop_list, 150, 50);
     lv_obj_align(stop_list, LV_ALIGN_TOP_LEFT, 50, 70);

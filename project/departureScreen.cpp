@@ -1,5 +1,7 @@
 #include "departureScreen.h"
 
+// Pointer to the departure table
+lv_obj_t* departureTable = nullptr;
 
 // Create the departure screen UI
 void create_departure_screen(lv_obj_t* departureTile)
@@ -12,7 +14,7 @@ void create_departure_screen(lv_obj_t* departureTile)
     lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 20);
     
     // Create departure table
-    lv_obj_t* departureTable = lv_table_create(departureTile);
+    departureTable = lv_table_create(departureTile);
     
     // Set table rows and columns
     lv_table_set_row_cnt(departureTable, 5);
@@ -33,7 +35,7 @@ void create_departure_screen(lv_obj_t* departureTile)
     lv_table_set_col_width(departureTable, 3, tableWidth * 35 / 100);
 
     
-    // Example departure 1
+    /*/ // Example departure 1
     lv_table_set_cell_value(departureTable, 1, 0, "Karlskrona C");
     lv_table_set_cell_value(departureTable, 1, 1, "1");
     lv_table_set_cell_value(departureTable, 1, 2, "10:26");
@@ -55,8 +57,48 @@ void create_departure_screen(lv_obj_t* departureTile)
     lv_table_set_cell_value(departureTable, 4, 0, "Nattraby");
     lv_table_set_cell_value(departureTable, 4, 1, "6");
     lv_table_set_cell_value(departureTable, 4, 2, "10:48");
-    lv_table_set_cell_value(departureTable, 4, 3, "On time");
-
+    lv_table_set_cell_value(departureTable, 4, 3, "On time");/*/
+    
     // Table alignment
     lv_obj_align(departureTable, LV_ALIGN_TOP_MID, 0, 70);
+}
+
+
+// Updates departurescreens UI
+void update_departure_screen(const std::vector<std::shared_ptr<Transport>>& transports) 
+{
+    // Check that table exists
+    if (departureTable == nullptr)
+    {
+        return;
+    } 
+
+    const int tableSize = 4;
+
+    int numberOfDepartures = static_cast<int>(transports.size());
+
+    for (int i = 0; i < numberOfDepartures && i < tableSize; i++)
+    {
+        // Gets Destination
+        lv_table_set_cell_value(departureTable, i + 1, 0, transports[i]->getDestination().c_str());
+
+        // Gets Line
+        lv_table_set_cell_value(departureTable, i + 1, 1, transports[i]->getLine().c_str());
+        
+        // Gets Time
+        lv_table_set_cell_value(departureTable, i + 1, 2, transports[i]->getDepartureTime().c_str());
+    
+        //Gets Status
+        lv_table_set_cell_value(departureTable, i + 1, 3, transports[i]->getStatus().c_str());
+    }
+
+    // Clears lines with no new transport info
+    for (int i = numberOfDepartures; i < tableSize; i++)
+    {
+        for (int column = 0; column < 4; column++ )
+        {
+            lv_table_set_cell_value(departureTable, i + 1, column, "");
+        }
+    }
+    
 }
