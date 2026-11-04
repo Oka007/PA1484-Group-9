@@ -1,5 +1,6 @@
 #include "settingsScreen.h"
-
+//#include "project.ino"
+#include "secrets.h"
 /* 
 
 #include <TFT_eSPI.h>      // Grafikkbibliotek för TFT
