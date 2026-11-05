@@ -35,7 +35,7 @@ public:
     }
 
     string getDepartureTime() const {
-        string dTime = departureTime.getHours() + ":" + departureTime.getMinutes();
+        string dTime = to_string(departureTime.getHours()) + ":" + to_string(departureTime.getMinutes());
         return dTime;
     }
 
