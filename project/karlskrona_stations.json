@@ -2879,28 +2879,6 @@
           }
         ],
         "timezoneOffset": 60,
-        "id": "A=1@O=Färmanstorp (Ronneby kn)@X=15489771@Y=56176657@U=1@L=740044719@",
-        "extId": "740044719",
-        "name": "Färmanstorp (Ronneby kn)",
-        "lon": 15.489771,
-        "lat": 56.176657,
-        "weight": 9,
-        "dist": 6024,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
         "id": "A=1@O=Bjärby (Karlskrona kn)@X=15511148@Y=56202321@U=1@L=740032088@",
         "extId": "740032088",
         "name": "Bjärby (Karlskrona kn)",
@@ -3128,28 +3106,6 @@
         "lat": 56.200658,
         "weight": 60,
         "dist": 6543,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Tromtesunda by (Ronneby kn)@X=15479407@Y=56175866@U=1@L=740073661@",
-        "extId": "740073661",
-        "name": "Tromtesunda by (Ronneby kn)",
-        "lon": 15.479407,
-        "lat": 56.175866,
-        "weight": 9,
-        "dist": 6642,
         "products": 128,
         "minimumChangeDuration": "PT26M"
       }
@@ -3495,94 +3451,6 @@
           }
         ],
         "timezoneOffset": 60,
-        "id": "A=1@O=Tromtesunda (Ronneby kn)@X=15465024@Y=56179812@U=1@L=740032263@",
-        "extId": "740032263",
-        "name": "Tromtesunda (Ronneby kn)",
-        "lon": 15.465024,
-        "lat": 56.179812,
-        "weight": 9,
-        "dist": 7595,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Gnistan (Ronneby kn)@X=15464044@Y=56177718@U=1@L=740032265@",
-        "extId": "740032265",
-        "name": "Gnistan (Ronneby kn)",
-        "lon": 15.464044,
-        "lat": 56.177718,
-        "weight": 9,
-        "dist": 7614,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Gravfältet (Ronneby kn)@X=15462462@Y=56169924@U=1@L=740032266@",
-        "extId": "740032266",
-        "name": "Gravfältet (Ronneby kn)",
-        "lon": 15.462462,
-        "lat": 56.169924,
-        "weight": 9,
-        "dist": 7622,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Esketorp (Ronneby kn)@X=15466975@Y=56187192@U=1@L=740032264@",
-        "extId": "740032264",
-        "name": "Esketorp (Ronneby kn)",
-        "lon": 15.466975,
-        "lat": 56.187192,
-        "weight": 9,
-        "dist": 7678,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
         "id": "A=1@O=Mölletorp (Karlskrona kn)@X=15670041@Y=56217270@U=1@L=740011100@",
         "extId": "740011100",
         "name": "Mölletorp (Karlskrona kn)",
@@ -3590,50 +3458,6 @@
         "lat": 56.21727,
         "weight": 9,
         "dist": 7687,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Norra Esketorp (Ronneby kn)@X=15469339@Y=56192694@U=1@L=740032262@",
-        "extId": "740032262",
-        "name": "Norra Esketorp (Ronneby kn)",
-        "lon": 15.469339,
-        "lat": 56.192694,
-        "weight": 9,
-        "dist": 7745,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Almöbron (Ronneby kn)@X=15459819@Y=56166337@U=1@L=740032267@",
-        "extId": "740032267",
-        "name": "Almöbron (Ronneby kn)",
-        "lon": 15.459819,
-        "lat": 56.166337,
-        "weight": 9,
-        "dist": 7777,
         "products": 128,
         "minimumChangeDuration": "PT26M"
       }
@@ -3658,28 +3482,6 @@
         "dist": 7810,
         "products": 128,
         "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Hjortahammars vsk (Ronneby kn)@X=15469914@Y=56197539@U=1@L=740032261@",
-        "extId": "740032261",
-        "name": "Hjortahammars vsk (Ronneby kn)",
-        "lon": 15.469914,
-        "lat": 56.197539,
-        "weight": 60,
-        "dist": 7929,
-        "products": 128,
-        "minimumChangeDuration": "PT5M"
       }
     },
     {
@@ -3919,28 +3721,6 @@
           }
         ],
         "timezoneOffset": 60,
-        "id": "A=1@O=Golfbanan (Ronneby kn)@X=15450309@Y=56157079@U=1@L=740032268@",
-        "extId": "740032268",
-        "name": "Golfbanan (Ronneby kn)",
-        "lon": 15.450309,
-        "lat": 56.157079,
-        "weight": 9,
-        "dist": 8436,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
         "id": "A=1@O=Sturkö Kvarnen (Karlskrona kn)@X=15681583@Y=56112959@U=1@L=740000469@",
         "extId": "740000469",
         "name": "Sturkö Kvarnen (Karlskrona kn)",
@@ -4047,50 +3827,6 @@
             "icon": {
               "res": "prod_gen"
             },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Hajvar (Ronneby kn)@X=15455100@Y=56140098@U=1@L=740032430@",
-        "extId": "740032430",
-        "name": "Hajvar (Ronneby kn)",
-        "lon": 15.4551,
-        "lat": 56.140098,
-        "weight": 9,
-        "dist": 8598,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Slätthammar (Ronneby kn)@X=15448556@Y=56151910@U=1@L=740032431@",
-        "extId": "740032431",
-        "name": "Slätthammar (Ronneby kn)",
-        "lon": 15.448556,
-        "lat": 56.15191,
-        "weight": 9,
-        "dist": 8635,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
             "cls": "256"
           }
         ],
@@ -4124,28 +3860,6 @@
         "lat": 56.24386,
         "weight": 9,
         "dist": 8738,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Hasslöbron (Ronneby kn)@X=15459316@Y=56131495@U=1@L=740024366@",
-        "extId": "740024366",
-        "name": "Hasslöbron (Ronneby kn)",
-        "lon": 15.459316,
-        "lat": 56.131495,
-        "weight": 9,
-        "dist": 8739,
         "products": 128,
         "minimumChangeDuration": "PT26M"
       }
@@ -4522,43 +4236,6 @@
         "products": 128,
         "minimumChangeDuration": "PT26M"
       }
-    },
-    {
-      "StopLocation": {
-        "productAtStop": [
-          {
-            "icon": {
-              "res": "prod_gen"
-            },
-            "cls": "128"
-          }
-        ],
-        "timezoneOffset": 60,
-        "id": "A=1@O=Förkärla kyrka (Ronneby kn)@X=15433652@Y=56197287@U=1@L=740032287@",
-        "extId": "740032287",
-        "name": "Förkärla kyrka (Ronneby kn)",
-        "lon": 15.433652,
-        "lat": 56.197287,
-        "weight": 60,
-        "dist": 9991,
-        "products": 128,
-        "minimumChangeDuration": "PT26M"
-      }
     }
-  ],
-  "TechnicalMessages": {
-    "TechnicalMessage": [
-      {
-        "value": "2026-11-16 13:55:51",
-        "key": "requestTime"
-      },
-      {
-        "value": "ttp=17118#17483 plancode0=yukg3 planid=1794776213 planid0=1794776213 planid_adr=1479298166 plancode_adr=q0r10 srvv=5.45.SAMTRAFIKEN.15.0.1 (customer/hcusamtrafiken/release/2023.10.0) [2023-10-19] tlibv=TRFVER: rel/pproxy/4.00.0 2022-10-24 18:24:51 +0200 Relay_EnrichmentProxy v1 jno=1",
-        "key": "backendInfo"
-      }
-    ]
-  },
-  "serverVersion": "2.45.1",
-  "dialectVersion": "2.45",
-  "requestId": "bewanqecisc79m8g"
+  ]
 }
