@@ -1,0 +1,4564 @@
+{
+  "stopLocationOrCoordLocation": [
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "4"
+          },
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "16"
+          },
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Centralstation@X=15585381@Y=56166706@U=1@L=740000230@",
+        "extId": "740000230",
+        "name": "Karlskrona Centralstation",
+        "lon": 15.585381,
+        "lat": 56.166706,
+        "weight": 5839,
+        "dist": 0,
+        "products": 148,
+        "minimumChangeDuration": "PT8M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Kungsplan@X=15586837@Y=56165205@U=1@L=740020510@",
+        "extId": "740020510",
+        "name": "Karlskrona Kungsplan",
+        "lon": 15.586837,
+        "lat": 56.165205,
+        "weight": 380,
+        "dist": 189,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lokstallarna (Karlskrona kn)@X=15584068@Y=56168702@U=1@L=740037242@",
+        "extId": "740037242",
+        "name": "Lokstallarna (Karlskrona kn)",
+        "lon": 15.584068,
+        "lat": 56.168702,
+        "weight": 380,
+        "dist": 236,
+        "products": 128,
+        "minimumChangeDuration": "PT2M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Pottholmen brygga (Karlskrona kn)@X=15580931@Y=56166023@U=1@L=740074437@",
+        "extId": "740074437",
+        "name": "Pottholmen brygga (Karlskrona kn)",
+        "lon": 15.580931,
+        "lat": 56.166023,
+        "weight": 26,
+        "dist": 286,
+        "products": 256,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona centrum@X=15586324@Y=56163146@U=1@L=740023372@",
+        "extId": "740023372",
+        "name": "Karlskrona centrum",
+        "lon": 15.586324,
+        "lat": 56.163146,
+        "weight": 380,
+        "dist": 400,
+        "products": 128,
+        "minimumChangeDuration": "PT1M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Af Chapmangymnasiet (Karlskrona kn)@X=15591538@Y=56163910@U=1@L=740031814@",
+        "extId": "740031814",
+        "name": "Af Chapmangymnasiet (Karlskrona kn)",
+        "lon": 15.591538,
+        "lat": 56.16391,
+        "weight": 380,
+        "dist": 491,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skeppsbron brygga (Karlskrona kn)@X=15593246@Y=56167839@U=1@L=740074431@",
+        "extId": "740074431",
+        "name": "Skeppsbron brygga (Karlskrona kn)",
+        "lon": 15.593246,
+        "lat": 56.167839,
+        "weight": 5,
+        "dist": 502,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Fisktorget@X=15579313@Y=56162337@U=1@L=740020700@",
+        "extId": "740020700",
+        "name": "Karlskrona Fisktorget",
+        "lon": 15.579313,
+        "lat": 56.162337,
+        "weight": 26,
+        "dist": 614,
+        "products": 256,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Landsvägsgatan (Karlskrona kn)@X=15588239@Y=56172001@U=1@L=740031777@",
+        "extId": "740031777",
+        "name": "Landsvägsgatan (Karlskrona kn)",
+        "lon": 15.588239,
+        "lat": 56.172001,
+        "weight": 380,
+        "dist": 614,
+        "products": 128,
+        "minimumChangeDuration": "PT1M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Drottninggatan (Karlskrona kn)@X=15591547@Y=56162346@U=1@L=740031815@",
+        "extId": "740031815",
+        "name": "Drottninggatan (Karlskrona kn)",
+        "lon": 15.591547,
+        "lat": 56.162346,
+        "weight": 380,
+        "dist": 617,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kvarngatan (Karlskrona kn)@X=15590648@Y=56172882@U=1@L=740031887@",
+        "extId": "740031887",
+        "name": "Kvarngatan (Karlskrona kn)",
+        "lon": 15.590648,
+        "lat": 56.172882,
+        "weight": 380,
+        "dist": 760,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Chapmansplan (Karlskrona kn)@X=15576724@Y=56161834@U=1@L=740031853@",
+        "extId": "740031853",
+        "name": "Chapmansplan (Karlskrona kn)",
+        "lon": 15.576724,
+        "lat": 56.161834,
+        "weight": 380,
+        "dist": 762,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          },
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Handelshamnen@X=15596734@Y=56163434@U=1@L=740020699@",
+        "extId": "740020699",
+        "name": "Karlskrona Handelshamnen",
+        "lon": 15.596734,
+        "lat": 56.163434,
+        "weight": 100,
+        "dist": 791,
+        "products": 384,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sparre (Karlskrona kn)@X=15591556@Y=56160270@U=1@L=740031816@",
+        "extId": "740031816",
+        "name": "Sparre (Karlskrona kn)",
+        "lon": 15.591556,
+        "lat": 56.16027,
+        "weight": 380,
+        "dist": 811,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tullparken (Karlskrona kn)@X=15588212@Y=56173879@U=1@L=740031877@",
+        "extId": "740031877",
+        "name": "Tullparken (Karlskrona kn)",
+        "lon": 15.588212,
+        "lat": 56.173879,
+        "weight": 60,
+        "dist": 816,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Amiralitetstorget@X=15584976@Y=56159065@U=1@L=740040917@",
+        "extId": "740040917",
+        "name": "Karlskrona Amiralitetstorget",
+        "lon": 15.584976,
+        "lat": 56.159065,
+        "weight": 380,
+        "dist": 850,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ekholmen (Karlskrona kn)@X=15572364@Y=56163829@U=1@L=740031874@",
+        "extId": "740031874",
+        "name": "Ekholmen (Karlskrona kn)",
+        "lon": 15.572364,
+        "lat": 56.163829,
+        "weight": 380,
+        "dist": 867,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Egilslunden (Karlskrona kn)@X=15582864@Y=56174392@U=1@L=740031881@",
+        "extId": "740031881",
+        "name": "Egilslunden (Karlskrona kn)",
+        "lon": 15.582864,
+        "lat": 56.174392,
+        "weight": 60,
+        "dist": 869,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tullskolan (Karlskrona kn)@X=15589030@Y=56174437@U=1@L=740031778@",
+        "extId": "740031778",
+        "name": "Tullskolan (Karlskrona kn)",
+        "lon": 15.58903,
+        "lat": 56.174437,
+        "weight": 380,
+        "dist": 889,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Alamedan (Karlskrona kn)@X=15589183@Y=56158975@U=1@L=740031817@",
+        "extId": "740031817",
+        "name": "Alamedan (Karlskrona kn)",
+        "lon": 15.589183,
+        "lat": 56.158975,
+        "weight": 380,
+        "dist": 891,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Varvet (Karlskrona kn)@X=15579816@Y=56159263@U=1@L=740031821@",
+        "extId": "740031821",
+        "name": "Varvet (Karlskrona kn)",
+        "lon": 15.579816,
+        "lat": 56.159263,
+        "weight": 380,
+        "dist": 897,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ordensgatan (Karlskrona kn)@X=15584985@Y=56174823@U=1@L=740031882@",
+        "extId": "740031882",
+        "name": "Ordensgatan (Karlskrona kn)",
+        "lon": 15.584985,
+        "lat": 56.174823,
+        "weight": 60,
+        "dist": 903,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Brändaholm brygga (Karlskrona kn)@X=15571339@Y=56171012@U=1@L=740017990@",
+        "extId": "740017990",
+        "name": "Brändaholm brygga (Karlskrona kn)",
+        "lon": 15.571339,
+        "lat": 56.171012,
+        "weight": 26,
+        "dist": 993,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Marinmuseum@X=15598756@Y=56161115@U=1@L=740017997@",
+        "extId": "740017997",
+        "name": "Karlskrona Marinmuseum",
+        "lon": 15.598756,
+        "lat": 56.161115,
+        "weight": 26,
+        "dist": 1035,
+        "products": 256,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kungsbrotrappan (Karlskrona kn)@X=15594280@Y=56158768@U=1@L=740080020@",
+        "extId": "740080020",
+        "name": "Kungsbrotrappan (Karlskrona kn)",
+        "lon": 15.59428,
+        "lat": 56.158768,
+        "weight": 26,
+        "dist": 1040,
+        "products": 256,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Björkholmen brygga (Karlskrona kn)@X=15570539@Y=56162229@U=1@L=740074432@",
+        "extId": "740074432",
+        "name": "Björkholmen brygga (Karlskrona kn)",
+        "lon": 15.570539,
+        "lat": 56.162229,
+        "weight": 26,
+        "dist": 1046,
+        "products": 256,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Saltö Fiskhamn brygga (Karlskrona kn)@X=15569029@Y=56163542@U=1@L=740074438@",
+        "extId": "740074438",
+        "name": "Saltö Fiskhamn brygga (Karlskrona kn)",
+        "lon": 15.569029,
+        "lat": 56.163542,
+        "weight": 26,
+        "dist": 1072,
+        "products": 256,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Saltö torg (Karlskrona kn)@X=15568481@Y=56164414@U=1@L=740031871@",
+        "extId": "740031871",
+        "name": "Saltö torg (Karlskrona kn)",
+        "lon": 15.568481,
+        "lat": 56.164414,
+        "weight": 380,
+        "dist": 1077,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Saltö (Karlskrona kn)@X=15567753@Y=56165870@U=1@L=740031870@",
+        "extId": "740031870",
+        "name": "Saltö (Karlskrona kn)",
+        "lon": 15.567753,
+        "lat": 56.16587,
+        "weight": 380,
+        "dist": 1096,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Strandgatan (Karlskrona kn)@X=15583700@Y=56176711@U=1@L=740031878@",
+        "extId": "740031878",
+        "name": "Strandgatan (Karlskrona kn)",
+        "lon": 15.5837,
+        "lat": 56.176711,
+        "weight": 60,
+        "dist": 1117,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lagmansgatan (Karlskrona kn)@X=15581416@Y=56176855@U=1@L=740031880@",
+        "extId": "740031880",
+        "name": "Lagmansgatan (Karlskrona kn)",
+        "lon": 15.581416,
+        "lat": 56.176855,
+        "weight": 60,
+        "dist": 1155,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Polhemsgatan (Karlskrona kn)@X=15590549@Y=56176720@U=1@L=740031779@",
+        "extId": "740031779",
+        "name": "Polhemsgatan (Karlskrona kn)",
+        "lon": 15.590549,
+        "lat": 56.17672,
+        "weight": 380,
+        "dist": 1158,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Dragsö brygga (Karlskrona kn)@X=15570728@Y=56173331@U=1@L=740017989@",
+        "extId": "740017989",
+        "name": "Dragsö brygga (Karlskrona kn)",
+        "lon": 15.570728,
+        "lat": 56.173331,
+        "weight": 26,
+        "dist": 1169,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Galgamarkstrappan (Karlskrona kn)@X=15593750@Y=56176936@U=1@L=740031888@",
+        "extId": "740031888",
+        "name": "Galgamarkstrappan (Karlskrona kn)",
+        "lon": 15.59375,
+        "lat": 56.176936,
+        "weight": 380,
+        "dist": 1250,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Långö (Karlskrona kn)@X=15580598@Y=56179408@U=1@L=740031879@",
+        "extId": "740031879",
+        "name": "Långö (Karlskrona kn)",
+        "lon": 15.580598,
+        "lat": 56.179408,
+        "weight": 60,
+        "dist": 1443,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skogsvägen Karlskrona (Karlskrona kn)@X=15600635@Y=56177709@U=1@L=740080019@",
+        "extId": "740080019",
+        "name": "Skogsvägen Karlskrona (Karlskrona kn)",
+        "lon": 15.600635,
+        "lat": 56.177709,
+        "weight": 60,
+        "dist": 1545,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona campus Gräsvik@X=15592905@Y=56180630@U=1@L=740032188@",
+        "extId": "740032188",
+        "name": "Karlskrona campus Gräsvik",
+        "lon": 15.592905,
+        "lat": 56.18063,
+        "weight": 380,
+        "dist": 1617,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Monsunparken Karlskrona (Karlskrona kn)@X=15599961@Y=56180765@U=1@L=740080018@",
+        "extId": "740080018",
+        "name": "Monsunparken Karlskrona (Karlskrona kn)",
+        "lon": 15.599961,
+        "lat": 56.180765,
+        "weight": 9,
+        "dist": 1805,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kyrkogården (Karlskrona kn)@X=15601552@Y=56181215@U=1@L=740031831@",
+        "extId": "740031831",
+        "name": "Kyrkogården (Karlskrona kn)",
+        "lon": 15.601552,
+        "lat": 56.181215,
+        "weight": 380,
+        "dist": 1899,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Wämöparken brygga (Karlskrona kn)@X=15609508@Y=56177898@U=1@L=740074440@",
+        "extId": "740074440",
+        "name": "Wämöparken brygga (Karlskrona kn)",
+        "lon": 15.609508,
+        "lat": 56.177898,
+        "weight": 5,
+        "dist": 1944,
+        "products": 256,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bergåsa centrum (Karlskrona kn)@X=15600276@Y=56182131@U=1@L=740031781@",
+        "extId": "740031781",
+        "name": "Bergåsa centrum (Karlskrona kn)",
+        "lon": 15.600276,
+        "lat": 56.182131,
+        "weight": 380,
+        "dist": 1947,
+        "products": 128,
+        "minimumChangeDuration": "PT4M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "4"
+          },
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "16"
+          },
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bergåsa station (Karlskrona kn)@X=15600869@Y=56182347@U=1@L=740001537@",
+        "extId": "740001537",
+        "name": "Bergåsa station (Karlskrona kn)",
+        "lon": 15.600869,
+        "lat": 56.182347,
+        "weight": 5839,
+        "dist": 1986,
+        "products": 148,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sjukhuset huvudentrén (Karlskrona kn)@X=15605166@Y=56182230@U=1@L=740024365@",
+        "extId": "740024365",
+        "name": "Sjukhuset huvudentrén (Karlskrona kn)",
+        "lon": 15.605166,
+        "lat": 56.18223,
+        "weight": 380,
+        "dist": 2117,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Wämöparken (Karlskrona kn)@X=15612357@Y=56178716@U=1@L=740032976@",
+        "extId": "740032976",
+        "name": "Wämöparken (Karlskrona kn)",
+        "lon": 15.612357,
+        "lat": 56.178716,
+        "weight": 60,
+        "dist": 2138,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hälsovägen (Karlskrona kn)@X=15603179@Y=56183318@U=1@L=740031832@",
+        "extId": "740031832",
+        "name": "Hälsovägen (Karlskrona kn)",
+        "lon": 15.603179,
+        "lat": 56.183318,
+        "weight": 380,
+        "dist": 2151,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Annebo (Karlskrona kn)@X=15605085@Y=56185961@U=1@L=740031796@",
+        "extId": "740031796",
+        "name": "Annebo (Karlskrona kn)",
+        "lon": 15.605085,
+        "lat": 56.185961,
+        "weight": 380,
+        "dist": 2464,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hästö idrottsplats (Karlskrona kn)@X=15617337@Y=56180648@U=1@L=740031847@",
+        "extId": "740031847",
+        "name": "Hästö idrottsplats (Karlskrona kn)",
+        "lon": 15.617337,
+        "lat": 56.180648,
+        "weight": 60,
+        "dist": 2513,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sjuhalla brygga (Karlskrona kn)@X=15560489@Y=56185664@U=1@L=740017988@",
+        "extId": "740017988",
+        "name": "Sjuhalla brygga (Karlskrona kn)",
+        "lon": 15.560489,
+        "lat": 56.185664,
+        "weight": 5,
+        "dist": 2612,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Herrgårdsvägen (Karlskrona kn)@X=15621697@Y=56181268@U=1@L=740031848@",
+        "extId": "740031848",
+        "name": "Herrgårdsvägen (Karlskrona kn)",
+        "lon": 15.621697,
+        "lat": 56.181268,
+        "weight": 60,
+        "dist": 2771,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Verkö färjeterminalen (Karlskrona kn)@X=15630839@Y=56164773@U=1@L=740022976@",
+        "extId": "740022976",
+        "name": "Verkö färjeterminalen (Karlskrona kn)",
+        "lon": 15.630839,
+        "lat": 56.164773,
+        "weight": 380,
+        "dist": 2823,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hästö (Karlskrona kn)@X=15625158@Y=56181952@U=1@L=740031849@",
+        "extId": "740031849",
+        "name": "Hästö (Karlskrona kn)",
+        "lon": 15.625158,
+        "lat": 56.181952,
+        "weight": 60,
+        "dist": 2990,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Roxtec Verkö (Karlskrona kn)@X=15634866@Y=56164234@U=1@L=740031842@",
+        "extId": "740031842",
+        "name": "Roxtec Verkö (Karlskrona kn)",
+        "lon": 15.634866,
+        "lat": 56.164234,
+        "weight": 380,
+        "dist": 3076,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lindesnäs (Karlskrona kn)@X=15614928@Y=56189008@U=1@L=740031783@",
+        "extId": "740031783",
+        "name": "Lindesnäs (Karlskrona kn)",
+        "lon": 15.614928,
+        "lat": 56.189008,
+        "weight": 380,
+        "dist": 3082,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Marieberg (Karlskrona kn)@X=15618056@Y=56188909@U=1@L=740031829@",
+        "extId": "740031829",
+        "name": "Marieberg (Karlskrona kn)",
+        "lon": 15.618056,
+        "lat": 56.188909,
+        "weight": 380,
+        "dist": 3192,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sunnadal (Karlskrona kn)@X=15612843@Y=56192532@U=1@L=740031784@",
+        "extId": "740031784",
+        "name": "Sunnadal (Karlskrona kn)",
+        "lon": 15.612843,
+        "lat": 56.192532,
+        "weight": 380,
+        "dist": 3338,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=NKT Verkö (Karlskrona kn)@X=15640745@Y=56166427@U=1@L=740031844@",
+        "extId": "740031844",
+        "name": "NKT Verkö (Karlskrona kn)",
+        "lon": 15.640745,
+        "lat": 56.166427,
+        "weight": 380,
+        "dist": 3428,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Gullaberg (Karlskrona kn)@X=15621904@Y=56191004@U=1@L=740031828@",
+        "extId": "740031828",
+        "name": "Gullaberg (Karlskrona kn)",
+        "lon": 15.621904,
+        "lat": 56.191004,
+        "weight": 380,
+        "dist": 3523,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Toras väg (Karlskrona kn)@X=15642525@Y=56170877@U=1@L=740031841@",
+        "extId": "740031841",
+        "name": "Toras väg (Karlskrona kn)",
+        "lon": 15.642525,
+        "lat": 56.170877,
+        "weight": 380,
+        "dist": 3568,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Gullberna station (Karlskrona kn)@X=15623675@Y=56191453@U=1@L=740031863@",
+        "extId": "740031863",
+        "name": "Gullberna station (Karlskrona kn)",
+        "lon": 15.623675,
+        "lat": 56.191453,
+        "weight": 380,
+        "dist": 3632,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Mariedal Motellet@X=15611359@Y=56196748@U=1@L=740024915@",
+        "extId": "740024915",
+        "name": "Karlskrona Mariedal Motellet",
+        "lon": 15.611359,
+        "lat": 56.196748,
+        "weight": 380,
+        "dist": 3708,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kungsmarken C-huset (Karlskrona kn)@X=15615962@Y=56195400@U=1@L=740031824@",
+        "extId": "740031824",
+        "name": "Kungsmarken C-huset (Karlskrona kn)",
+        "lon": 15.615962,
+        "lat": 56.1954,
+        "weight": 380,
+        "dist": 3711,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Verkö (Karlskrona kn)@X=15644566@Y=56173034@U=1@L=740031840@",
+        "extId": "740031840",
+        "name": "Verkö (Karlskrona kn)",
+        "lon": 15.644566,
+        "lat": 56.173034,
+        "weight": 380,
+        "dist": 3731,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ankaret (Karlskrona kn)@X=15614020@Y=56196424@U=1@L=740031823@",
+        "extId": "740031823",
+        "name": "Ankaret (Karlskrona kn)",
+        "lon": 15.61402,
+        "lat": 56.196424,
+        "weight": 380,
+        "dist": 3751,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hultvägen (Karlskrona kn)@X=15627073@Y=56192505@U=1@L=740031868@",
+        "extId": "740031868",
+        "name": "Hultvägen (Karlskrona kn)",
+        "lon": 15.627073,
+        "lat": 56.192505,
+        "weight": 380,
+        "dist": 3859,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kungsmarken centrum (Karlskrona kn)@X=15623953@Y=56194303@U=1@L=740031827@",
+        "extId": "740031827",
+        "name": "Kungsmarken centrum (Karlskrona kn)",
+        "lon": 15.623953,
+        "lat": 56.194303,
+        "weight": 380,
+        "dist": 3889,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kungsmarken B-huset (Karlskrona kn)@X=15617418@Y=56197063@U=1@L=740031825@",
+        "extId": "740031825",
+        "name": "Kungsmarken B-huset (Karlskrona kn)",
+        "lon": 15.617418,
+        "lat": 56.197063,
+        "weight": 380,
+        "dist": 3916,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skönstavik (Karlskrona kn)@X=15606829@Y=56200793@U=1@L=740032091@",
+        "extId": "740032091",
+        "name": "Skönstavik (Karlskrona kn)",
+        "lon": 15.606829,
+        "lat": 56.200793,
+        "weight": 380,
+        "dist": 4017,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby Åslätten brygga (Karlskrona kn)@X=15539823@Y=56193521@U=1@L=740017991@",
+        "extId": "740017991",
+        "name": "Nättraby Åslätten brygga (Karlskrona kn)",
+        "lon": 15.539823,
+        "lat": 56.193521,
+        "weight": 5,
+        "dist": 4105,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Gullberna (Karlskrona kn)@X=15631819@Y=56193287@U=1@L=740072447@",
+        "extId": "740072447",
+        "name": "Gullberna (Karlskrona kn)",
+        "lon": 15.631819,
+        "lat": 56.193287,
+        "weight": 380,
+        "dist": 4124,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ekeberg (Karlskrona kn)@X=15619468@Y=56198609@U=1@L=740031789@",
+        "extId": "740031789",
+        "name": "Ekeberg (Karlskrona kn)",
+        "lon": 15.619468,
+        "lat": 56.198609,
+        "weight": 380,
+        "dist": 4128,
+        "products": 128,
+        "minimumChangeDuration": "PT2M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kungsmarken A-huset (Karlskrona kn)@X=15623243@Y=56197521@U=1@L=740031826@",
+        "extId": "740031826",
+        "name": "Kungsmarken A-huset (Karlskrona kn)",
+        "lon": 15.623243,
+        "lat": 56.197521,
+        "weight": 380,
+        "dist": 4152,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Wrängö brygga (Karlskrona kn)@X=15539913@Y=56194456@U=1@L=740017987@",
+        "extId": "740017987",
+        "name": "Wrängö brygga (Karlskrona kn)",
+        "lon": 15.539913,
+        "lat": 56.194456,
+        "weight": 5,
+        "dist": 4178,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ängholmen (Karlskrona kn)@X=15650993@Y=56176073@U=1@L=740031839@",
+        "extId": "740031839",
+        "name": "Ängholmen (Karlskrona kn)",
+        "lon": 15.650993,
+        "lat": 56.176073,
+        "weight": 380,
+        "dist": 4194,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Mjövikstrandsv (Karlskrona kn)@X=15527787@Y=56187822@U=1@L=740011061@",
+        "extId": "740011061",
+        "name": "Mjövikstrandsv (Karlskrona kn)",
+        "lon": 15.527787,
+        "lat": 56.187822,
+        "weight": 60,
+        "dist": 4270,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ängsvägen (Karlskrona kn)@X=15530492@Y=56190303@U=1@L=740032101@",
+        "extId": "740032101",
+        "name": "Ängsvägen (Karlskrona kn)",
+        "lon": 15.530492,
+        "lat": 56.190303,
+        "weight": 60,
+        "dist": 4294,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Grönadals brygga (Karlskrona kn)@X=15517431@Y=56174545@U=1@L=740074573@",
+        "extId": "740074573",
+        "name": "Grönadals brygga (Karlskrona kn)",
+        "lon": 15.517431,
+        "lat": 56.174545,
+        "weight": 9,
+        "dist": 4298,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Granitvägen (Karlskrona kn)@X=15534538@Y=56193485@U=1@L=740032100@",
+        "extId": "740032100",
+        "name": "Granitvägen (Karlskrona kn)",
+        "lon": 15.534538,
+        "lat": 56.193485,
+        "weight": 60,
+        "dist": 4334,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lallerstedts gata (Karlskrona kn)@X=15634704@Y=56195480@U=1@L=740031865@",
+        "extId": "740031865",
+        "name": "Lallerstedts gata (Karlskrona kn)",
+        "lon": 15.634704,
+        "lat": 56.19548,
+        "weight": 380,
+        "dist": 4423,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlsgärde (Karlskrona kn)@X=15604033@Y=56205135@U=1@L=740032092@",
+        "extId": "740032092",
+        "name": "Karlsgärde (Karlskrona kn)",
+        "lon": 15.604033,
+        "lat": 56.205135,
+        "weight": 380,
+        "dist": 4428,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Herrgårdsviken (Tjurkö) brygga (Karlskrona kn)@X=15620636@Y=56131396@U=1@L=740021794@",
+        "extId": "740021794",
+        "name": "Herrgårdsviken (Tjurkö) brygga (Karlskrona kn)",
+        "lon": 15.620636,
+        "lat": 56.131396,
+        "weight": 5,
+        "dist": 4494,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Intagsvägen (Karlskrona kn)@X=15624358@Y=56201422@U=1@L=740031790@",
+        "extId": "740031790",
+        "name": "Intagsvägen (Karlskrona kn)",
+        "lon": 15.624358,
+        "lat": 56.201422,
+        "weight": 380,
+        "dist": 4553,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Södra Ringö (Karlskrona kn)@X=15655964@Y=56180136@U=1@L=740031838@",
+        "extId": "740031838",
+        "name": "Södra Ringö (Karlskrona kn)",
+        "lon": 15.655964,
+        "lat": 56.180136,
+        "weight": 380,
+        "dist": 4618,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Roslundavägen (Karlskrona kn)@X=15532066@Y=56197179@U=1@L=740032099@",
+        "extId": "740032099",
+        "name": "Roslundavägen (Karlskrona kn)",
+        "lon": 15.532066,
+        "lat": 56.197179,
+        "weight": 60,
+        "dist": 4732,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby centrum (Karlskrona kn)@X=15536497@Y=56199894@U=1@L=740024966@",
+        "extId": "740024966",
+        "name": "Nättraby centrum (Karlskrona kn)",
+        "lon": 15.536497,
+        "lat": 56.199894,
+        "weight": 60,
+        "dist": 4774,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Silleboda (Karlskrona kn)@X=15601777@Y=56209009@U=1@L=740032087@",
+        "extId": "740032087",
+        "name": "Silleboda (Karlskrona kn)",
+        "lon": 15.601777,
+        "lat": 56.209009,
+        "weight": 380,
+        "dist": 4814,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby (Karlskrona kn)@X=15536551@Y=56200550@U=1@L=740023352@",
+        "extId": "740023352",
+        "name": "Nättraby (Karlskrona kn)",
+        "lon": 15.536551,
+        "lat": 56.20055,
+        "weight": 5,
+        "dist": 4828,
+        "products": 256,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Backabo (Karlskrona kn)@X=15629050@Y=56203022@U=1@L=740031791@",
+        "extId": "740031791",
+        "name": "Backabo (Karlskrona kn)",
+        "lon": 15.62905,
+        "lat": 56.203022,
+        "weight": 380,
+        "dist": 4860,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby kyrka (Karlskrona kn)@X=15537144@Y=56201359@U=1@L=740025541@",
+        "extId": "740025541",
+        "name": "Nättraby kyrka (Karlskrona kn)",
+        "lon": 15.537144,
+        "lat": 56.201359,
+        "weight": 60,
+        "dist": 4876,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Dalamad (Karlskrona kn)@X=15515768@Y=56188370@U=1@L=740032104@",
+        "extId": "740032104",
+        "name": "Dalamad (Karlskrona kn)",
+        "lon": 15.515768,
+        "lat": 56.18837,
+        "weight": 60,
+        "dist": 4938,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ringö (Karlskrona kn)@X=15656081@Y=56187291@U=1@L=740031837@",
+        "extId": "740031837",
+        "name": "Ringö (Karlskrona kn)",
+        "lon": 15.656081,
+        "lat": 56.187291,
+        "weight": 380,
+        "dist": 4940,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Amiralen@X=15644458@Y=56197287@U=1@L=740031800@",
+        "extId": "740031800",
+        "name": "Karlskrona Amiralen",
+        "lon": 15.644458,
+        "lat": 56.197287,
+        "weight": 380,
+        "dist": 4994,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Benabacken (Karlskrona kn)@X=15531913@Y=56201144@U=1@L=740032098@",
+        "extId": "740032098",
+        "name": "Benabacken (Karlskrona kn)",
+        "lon": 15.531913,
+        "lat": 56.201144,
+        "weight": 60,
+        "dist": 5063,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ringöbron (Karlskrona kn)@X=15654669@Y=56190914@U=1@L=740031864@",
+        "extId": "740031864",
+        "name": "Ringöbron (Karlskrona kn)",
+        "lon": 15.654669,
+        "lat": 56.190914,
+        "weight": 9,
+        "dist": 5064,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skärva (Karlskrona kn)@X=15569775@Y=56211427@U=1@L=740032149@",
+        "extId": "740032149",
+        "name": "Skärva (Karlskrona kn)",
+        "lon": 15.569775,
+        "lat": 56.211427,
+        "weight": 380,
+        "dist": 5068,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby Dalby (Karlskrona kn)@X=15537684@Y=56204353@U=1@L=740011165@",
+        "extId": "740011165",
+        "name": "Nättraby Dalby (Karlskrona kn)",
+        "lon": 15.537684,
+        "lat": 56.204353,
+        "weight": 380,
+        "dist": 5124,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Åvägen (Karlskrona kn)@X=15534717@Y=56203256@U=1@L=740032097@",
+        "extId": "740032097",
+        "name": "Åvägen (Karlskrona kn)",
+        "lon": 15.534717,
+        "lat": 56.203256,
+        "weight": 9,
+        "dist": 5135,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Grönadal (Karlskrona kn)@X=15509575@Y=56186599@U=1@L=740032105@",
+        "extId": "740032105",
+        "name": "Grönadal (Karlskrona kn)",
+        "lon": 15.509575,
+        "lat": 56.186599,
+        "weight": 60,
+        "dist": 5190,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Järavägen (Karlskrona kn)@X=15640772@Y=56201809@U=1@L=740032169@",
+        "extId": "740032169",
+        "name": "Järavägen (Karlskrona kn)",
+        "lon": 15.640772,
+        "lat": 56.201809,
+        "weight": 380,
+        "dist": 5196,
+        "products": 128,
+        "minimumChangeDuration": "PT10M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Stadsträdgården (Karlskrona kn)@X=15636961@Y=56203804@U=1@L=740031792@",
+        "extId": "740031792",
+        "name": "Stadsträdgården (Karlskrona kn)",
+        "lon": 15.636961,
+        "lat": 56.203804,
+        "weight": 380,
+        "dist": 5217,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Rosenholm (Karlskrona kn)@X=15601417@Y=56212758@U=1@L=740032108@",
+        "extId": "740032108",
+        "name": "Rosenholm (Karlskrona kn)",
+        "lon": 15.601417,
+        "lat": 56.212758,
+        "weight": 380,
+        "dist": 5218,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lyckeby Slottsbacken (Karlskrona kn)@X=15649051@Y=56197494@U=1@L=740032193@",
+        "extId": "740032193",
+        "name": "Lyckeby Slottsbacken (Karlskrona kn)",
+        "lon": 15.649051,
+        "lat": 56.197494,
+        "weight": 380,
+        "dist": 5221,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Stationsvägen Slottsbacken (Karlskrona kn)@X=15649276@Y=56197961@U=1@L=740031799@",
+        "extId": "740031799",
+        "name": "Stationsvägen Slottsbacken (Karlskrona kn)",
+        "lon": 15.649276,
+        "lat": 56.197961,
+        "weight": 380,
+        "dist": 5266,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skärfva by (Karlskrona kn)@X=15561982@Y=56212632@U=1@L=740032074@",
+        "extId": "740032074",
+        "name": "Skärfva by (Karlskrona kn)",
+        "lon": 15.561982,
+        "lat": 56.212632,
+        "weight": 380,
+        "dist": 5310,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skillingenäs (Karlskrona kn)@X=15505323@Y=56184675@U=1@L=740032106@",
+        "extId": "740032106",
+        "name": "Skillingenäs (Karlskrona kn)",
+        "lon": 15.505323,
+        "lat": 56.184675,
+        "weight": 60,
+        "dist": 5345,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Såglyckan (Karlskrona kn)@X=15551257@Y=56211050@U=1@L=740032095@",
+        "extId": "740032095",
+        "name": "Såglyckan (Karlskrona kn)",
+        "lon": 15.551257,
+        "lat": 56.21105,
+        "weight": 380,
+        "dist": 5366,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Berget (Karlskrona kn)@X=15632835@Y=56207589@U=1@L=740032009@",
+        "extId": "740032009",
+        "name": "Berget (Karlskrona kn)",
+        "lon": 15.632835,
+        "lat": 56.207589,
+        "weight": 380,
+        "dist": 5413,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tjurkö Stora Lycke (Karlskrona kn)@X=15625625@Y=56123360@U=1@L=740023365@",
+        "extId": "740023365",
+        "name": "Tjurkö Stora Lycke (Karlskrona kn)",
+        "lon": 15.625625,
+        "lat": 56.12336,
+        "weight": 60,
+        "dist": 5428,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby skola (Karlskrona kn)@X=15528838@Y=56204730@U=1@L=740011166@",
+        "extId": "740011166",
+        "name": "Nättraby skola (Karlskrona kn)",
+        "lon": 15.528838,
+        "lat": 56.20473,
+        "weight": 60,
+        "dist": 5490,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Knösö (Karlskrona kn)@X=15664486@Y=56189053@U=1@L=740031869@",
+        "extId": "740031869",
+        "name": "Knösö (Karlskrona kn)",
+        "lon": 15.664486,
+        "lat": 56.189053,
+        "weight": 380,
+        "dist": 5492,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lyckeby centrum (Karlskrona kn)@X=15654732@Y=56198690@U=1@L=740000663@",
+        "extId": "740000663",
+        "name": "Lyckeby centrum (Karlskrona kn)",
+        "lon": 15.654732,
+        "lat": 56.19869,
+        "weight": 380,
+        "dist": 5575,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Allévägen (Karlskrona kn)@X=15597750@Y=56216416@U=1@L=740032109@",
+        "extId": "740032109",
+        "name": "Allévägen (Karlskrona kn)",
+        "lon": 15.59775,
+        "lat": 56.216416,
+        "weight": 9,
+        "dist": 5582,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ga Riksvägen (Karlskrona kn)@X=15663892@Y=56191435@U=1@L=740031835@",
+        "extId": "740031835",
+        "name": "Ga Riksvägen (Karlskrona kn)",
+        "lon": 15.663892,
+        "lat": 56.191435,
+        "weight": 380,
+        "dist": 5585,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bokskogsvägen (Karlskrona kn)@X=15541306@Y=56210510@U=1@L=740032096@",
+        "extId": "740032096",
+        "name": "Bokskogsvägen (Karlskrona kn)",
+        "lon": 15.541306,
+        "lat": 56.21051,
+        "weight": 380,
+        "dist": 5585,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby hörnet (Karlskrona kn)@X=15530717@Y=56206888@U=1@L=740000564@",
+        "extId": "740000564",
+        "name": "Nättraby hörnet (Karlskrona kn)",
+        "lon": 15.530717,
+        "lat": 56.206888,
+        "weight": 60,
+        "dist": 5606,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ekedalsvägen (Karlskrona kn)@X=15662265@Y=56193458@U=1@L=740031834@",
+        "extId": "740031834",
+        "name": "Ekedalsvägen (Karlskrona kn)",
+        "lon": 15.662265,
+        "lat": 56.193458,
+        "weight": 380,
+        "dist": 5613,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Färmanstorpsv (Karlskrona kn)@X=15499785@Y=56185134@U=1@L=740032107@",
+        "extId": "740032107",
+        "name": "Färmanstorpsv (Karlskrona kn)",
+        "lon": 15.499785,
+        "lat": 56.185134,
+        "weight": 60,
+        "dist": 5683,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättrabyån (Karlskrona kn)@X=15532695@Y=56208578@U=1@L=740032115@",
+        "extId": "740032115",
+        "name": "Nättrabyån (Karlskrona kn)",
+        "lon": 15.532695,
+        "lat": 56.208578,
+        "weight": 60,
+        "dist": 5686,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Nättraby E22 (Karlskrona kn)@X=15528802@Y=56207265@U=1@L=740023351@",
+        "extId": "740023351",
+        "name": "Nättraby E22 (Karlskrona kn)",
+        "lon": 15.528802,
+        "lat": 56.207265,
+        "weight": 60,
+        "dist": 5712,
+        "products": 128,
+        "minimumChangeDuration": "PT1M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sundetvägen (Karlskrona kn)@X=15620933@Y=56119198@U=1@L=740031989@",
+        "extId": "740031989",
+        "name": "Sundetvägen (Karlskrona kn)",
+        "lon": 15.620933,
+        "lat": 56.119198,
+        "weight": 60,
+        "dist": 5725,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=NKT Arena Karlskrona (Karlskrona kn)@X=15603808@Y=56217180@U=1@L=740032192@",
+        "extId": "740032192",
+        "name": "NKT Arena Karlskrona (Karlskrona kn)",
+        "lon": 15.603808,
+        "lat": 56.21718,
+        "weight": 380,
+        "dist": 5729,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Torskors (Karlskrona kn)@X=15633590@Y=56210789@U=1@L=740011646@",
+        "extId": "740011646",
+        "name": "Torskors (Karlskrona kn)",
+        "lon": 15.63359,
+        "lat": 56.210789,
+        "weight": 380,
+        "dist": 5740,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Carlemansvägen (Karlskrona kn)@X=15661528@Y=56196514@U=1@L=740031793@",
+        "extId": "740031793",
+        "name": "Carlemansvägen (Karlskrona kn)",
+        "lon": 15.661528,
+        "lat": 56.196514,
+        "weight": 380,
+        "dist": 5763,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Karlskrona Angöringen@X=15644224@Y=56207256@U=1@L=740031886@",
+        "extId": "740031886",
+        "name": "Karlskrona Angöringen",
+        "lon": 15.644224,
+        "lat": 56.207256,
+        "weight": 60,
+        "dist": 5797,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Knösövägen (Karlskrona kn)@X=15662895@Y=56196119@U=1@L=740031833@",
+        "extId": "740031833",
+        "name": "Knösövägen (Karlskrona kn)",
+        "lon": 15.662895,
+        "lat": 56.196119,
+        "weight": 60,
+        "dist": 5808,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Allatorp (Karlskrona kn)@X=15594451@Y=56218691@U=1@L=740011253@",
+        "extId": "740011253",
+        "name": "Allatorp (Karlskrona kn)",
+        "lon": 15.594451,
+        "lat": 56.218691,
+        "weight": 9,
+        "dist": 5810,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=AWA vägen (Karlskrona kn)@X=15655739@Y=56201899@U=1@L=740031813@",
+        "extId": "740031813",
+        "name": "AWA vägen (Karlskrona kn)",
+        "lon": 15.655739,
+        "lat": 56.201899,
+        "weight": 380,
+        "dist": 5856,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tjurkö kyrka (Karlskrona kn)@X=15615836@Y=56116690@U=1@L=740011623@",
+        "extId": "740011623",
+        "name": "Tjurkö kyrka (Karlskrona kn)",
+        "lon": 15.615836,
+        "lat": 56.11669,
+        "weight": 60,
+        "dist": 5875,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kronotorp (Karlskrona kn)@X=15665888@Y=56196604@U=1@L=740031794@",
+        "extId": "740031794",
+        "name": "Kronotorp (Karlskrona kn)",
+        "lon": 15.665888,
+        "lat": 56.196604,
+        "weight": 380,
+        "dist": 5991,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Allatorps gård (Karlskrona kn)@X=15590594@Y=56220596@U=1@L=740010009@",
+        "extId": "740010009",
+        "name": "Allatorps gård (Karlskrona kn)",
+        "lon": 15.590594,
+        "lat": 56.220596,
+        "weight": 9,
+        "dist": 6003,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Färmanstorp (Ronneby kn)@X=15489771@Y=56176657@U=1@L=740044719@",
+        "extId": "740044719",
+        "name": "Färmanstorp (Ronneby kn)",
+        "lon": 15.489771,
+        "lat": 56.176657,
+        "weight": 9,
+        "dist": 6024,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bjärby (Karlskrona kn)@X=15511148@Y=56202321@U=1@L=740032088@",
+        "extId": "740032088",
+        "name": "Bjärby (Karlskrona kn)",
+        "lon": 15.511148,
+        "lat": 56.202321,
+        "weight": 60,
+        "dist": 6068,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Carlandravägen (Karlskrona kn)@X=15659128@Y=56204820@U=1@L=740031812@",
+        "extId": "740031812",
+        "name": "Carlandravägen (Karlskrona kn)",
+        "lon": 15.659128,
+        "lat": 56.20482,
+        "weight": 380,
+        "dist": 6230,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Uranvägen Torskors (Karlskrona kn)@X=15638893@Y=56214583@U=1@L=740031859@",
+        "extId": "740031859",
+        "name": "Uranvägen Torskors (Karlskrona kn)",
+        "lon": 15.638893,
+        "lat": 56.214583,
+        "weight": 380,
+        "dist": 6271,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lejonbacken (Karlskrona kn)@X=15612159@Y=56112231@U=1@L=740031988@",
+        "extId": "740031988",
+        "name": "Lejonbacken (Karlskrona kn)",
+        "lon": 15.612159,
+        "lat": 56.112231,
+        "weight": 60,
+        "dist": 6283,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=G Torhamns väg (Karlskrona kn)@X=15654939@Y=56208038@U=1@L=740031810@",
+        "extId": "740031810",
+        "name": "G Torhamns väg (Karlskrona kn)",
+        "lon": 15.654939,
+        "lat": 56.208038,
+        "weight": 380,
+        "dist": 6299,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Östra Torp (Karlskrona kn)@X=15674158@Y=56194662@U=1@L=740031795@",
+        "extId": "740031795",
+        "name": "Östra Torp (Karlskrona kn)",
+        "lon": 15.674158,
+        "lat": 56.194662,
+        "weight": 380,
+        "dist": 6315,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Drottningskär Kastellet brygga (Karlskrona kn)@X=15565487@Y=56110982@U=1@L=740017996@",
+        "extId": "740017996",
+        "name": "Drottningskär Kastellet brygga (Karlskrona kn)",
+        "lon": 15.565487,
+        "lat": 56.110982,
+        "weight": 5,
+        "dist": 6320,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Boråkra (Karlskrona kn)@X=15582396@Y=56223590@U=1@L=740032110@",
+        "extId": "740032110",
+        "name": "Boråkra (Karlskrona kn)",
+        "lon": 15.582396,
+        "lat": 56.22359,
+        "weight": 9,
+        "dist": 6330,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Afvelsgärdevägen (Karlskrona kn)@X=15659371@Y=56206978@U=1@L=740031811@",
+        "extId": "740031811",
+        "name": "Afvelsgärdevägen (Karlskrona kn)",
+        "lon": 15.659371,
+        "lat": 56.206978,
+        "weight": 380,
+        "dist": 6406,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=H Martinsons väg (Karlskrona kn)@X=15655577@Y=56210492@U=1@L=740031809@",
+        "extId": "740031809",
+        "name": "H Martinsons väg (Karlskrona kn)",
+        "lon": 15.655577,
+        "lat": 56.210492,
+        "weight": 380,
+        "dist": 6527,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Skillinge (Karlskrona kn)@X=15499075@Y=56200658@U=1@L=740032089@",
+        "extId": "740032089",
+        "name": "Skillinge (Karlskrona kn)",
+        "lon": 15.499075,
+        "lat": 56.200658,
+        "weight": 60,
+        "dist": 6543,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tromtesunda by (Ronneby kn)@X=15479407@Y=56175866@U=1@L=740073661@",
+        "extId": "740073661",
+        "name": "Tromtesunda by (Ronneby kn)",
+        "lon": 15.479407,
+        "lat": 56.175866,
+        "weight": 9,
+        "dist": 6642,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Spandelstorp (Karlskrona kn)@X=15655793@Y=56212578@U=1@L=740031808@",
+        "extId": "740031808",
+        "name": "Spandelstorp (Karlskrona kn)",
+        "lon": 15.655793,
+        "lat": 56.212578,
+        "weight": 380,
+        "dist": 6710,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Råbacken (Karlskrona kn)@X=15663101@Y=56209288@U=1@L=740031994@",
+        "extId": "740031994",
+        "name": "Råbacken (Karlskrona kn)",
+        "lon": 15.663101,
+        "lat": 56.209288,
+        "weight": 9,
+        "dist": 6751,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Finskan (Tjurkö) brygga (Karlskrona kn)@X=15594927@Y=56105795@U=1@L=740017994@",
+        "extId": "740017994",
+        "name": "Finskan (Tjurkö) brygga (Karlskrona kn)",
+        "lon": 15.594927,
+        "lat": 56.105795,
+        "weight": 5,
+        "dist": 6801,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Djupasund (Karlskrona kn)@X=15624547@Y=56109247@U=1@L=740031987@",
+        "extId": "740031987",
+        "name": "Djupasund (Karlskrona kn)",
+        "lon": 15.624547,
+        "lat": 56.109247,
+        "weight": 60,
+        "dist": 6837,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Spandelstorpskolan (Karlskrona kn)@X=15653851@Y=56215320@U=1@L=740031807@",
+        "extId": "740031807",
+        "name": "Spandelstorpskolan (Karlskrona kn)",
+        "lon": 15.653851,
+        "lat": 56.21532,
+        "weight": 380,
+        "dist": 6870,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lösen (Karlskrona kn)@X=15682015@Y=56197287@U=1@L=740031889@",
+        "extId": "740031889",
+        "name": "Lösen (Karlskrona kn)",
+        "lon": 15.682015,
+        "lat": 56.197287,
+        "weight": 380,
+        "dist": 6882,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Allatorp norra (Karlskrona kn)@X=15583025@Y=56229235@U=1@L=740032145@",
+        "extId": "740032145",
+        "name": "Allatorp norra (Karlskrona kn)",
+        "lon": 15.583025,
+        "lat": 56.229235,
+        "weight": 9,
+        "dist": 6957,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sanda (Karlskrona kn)@X=15654373@Y=56115872@U=1@L=740031984@",
+        "extId": "740031984",
+        "name": "Sanda (Karlskrona kn)",
+        "lon": 15.654373,
+        "lat": 56.115872,
+        "weight": 60,
+        "dist": 7089,
+        "products": 128,
+        "minimumChangeDuration": "PT3M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Silvervägen (Karlskrona kn)@X=15652332@Y=56218753@U=1@L=740031806@",
+        "extId": "740031806",
+        "name": "Silvervägen (Karlskrona kn)",
+        "lon": 15.652332,
+        "lat": 56.218753,
+        "weight": 380,
+        "dist": 7119,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Smedvägen (Karlskrona kn)@X=15650355@Y=56111692@U=1@L=740031985@",
+        "extId": "740031985",
+        "name": "Smedvägen (Karlskrona kn)",
+        "lon": 15.650355,
+        "lat": 56.111692,
+        "weight": 60,
+        "dist": 7325,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bjärbylund (Karlskrona kn)@X=15480440@Y=56198024@U=1@L=740032090@",
+        "extId": "740032090",
+        "name": "Bjärbylund (Karlskrona kn)",
+        "lon": 15.48044,
+        "lat": 56.198024,
+        "weight": 60,
+        "dist": 7372,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Södra Hässlegården (Karlskrona kn)@X=15657941@Y=56219922@U=1@L=740031805@",
+        "extId": "740031805",
+        "name": "Södra Hässlegården (Karlskrona kn)",
+        "lon": 15.657941,
+        "lat": 56.219922,
+        "weight": 380,
+        "dist": 7430,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bubbetorp (Karlskrona kn)@X=15628556@Y=56229415@U=1@L=740032010@",
+        "extId": "740032010",
+        "name": "Bubbetorp (Karlskrona kn)",
+        "lon": 15.628556,
+        "lat": 56.229415,
+        "weight": 380,
+        "dist": 7470,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Kungastenen (Karlskrona kn)@X=15644673@Y=56108186@U=1@L=740031986@",
+        "extId": "740031986",
+        "name": "Kungastenen (Karlskrona kn)",
+        "lon": 15.644673,
+        "lat": 56.108186,
+        "weight": 60,
+        "dist": 7475,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tockatorp (Karlskrona kn)@X=15663749@Y=56114389@U=1@L=740031983@",
+        "extId": "740031983",
+        "name": "Tockatorp (Karlskrona kn)",
+        "lon": 15.663749,
+        "lat": 56.114389,
+        "weight": 60,
+        "dist": 7580,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Tromtesunda (Ronneby kn)@X=15465024@Y=56179812@U=1@L=740032263@",
+        "extId": "740032263",
+        "name": "Tromtesunda (Ronneby kn)",
+        "lon": 15.465024,
+        "lat": 56.179812,
+        "weight": 9,
+        "dist": 7595,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Gnistan (Ronneby kn)@X=15464044@Y=56177718@U=1@L=740032265@",
+        "extId": "740032265",
+        "name": "Gnistan (Ronneby kn)",
+        "lon": 15.464044,
+        "lat": 56.177718,
+        "weight": 9,
+        "dist": 7614,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Gravfältet (Ronneby kn)@X=15462462@Y=56169924@U=1@L=740032266@",
+        "extId": "740032266",
+        "name": "Gravfältet (Ronneby kn)",
+        "lon": 15.462462,
+        "lat": 56.169924,
+        "weight": 9,
+        "dist": 7622,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Esketorp (Ronneby kn)@X=15466975@Y=56187192@U=1@L=740032264@",
+        "extId": "740032264",
+        "name": "Esketorp (Ronneby kn)",
+        "lon": 15.466975,
+        "lat": 56.187192,
+        "weight": 9,
+        "dist": 7678,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Mölletorp (Karlskrona kn)@X=15670041@Y=56217270@U=1@L=740011100@",
+        "extId": "740011100",
+        "name": "Mölletorp (Karlskrona kn)",
+        "lon": 15.670041,
+        "lat": 56.21727,
+        "weight": 9,
+        "dist": 7687,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Norra Esketorp (Ronneby kn)@X=15469339@Y=56192694@U=1@L=740032262@",
+        "extId": "740032262",
+        "name": "Norra Esketorp (Ronneby kn)",
+        "lon": 15.469339,
+        "lat": 56.192694,
+        "weight": 9,
+        "dist": 7745,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Almöbron (Ronneby kn)@X=15459819@Y=56166337@U=1@L=740032267@",
+        "extId": "740032267",
+        "name": "Almöbron (Ronneby kn)",
+        "lon": 15.459819,
+        "lat": 56.166337,
+        "weight": 9,
+        "dist": 7777,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hässlegårdens förskola (Karlskrona kn)@X=15663380@Y=56221900@U=1@L=740031803@",
+        "extId": "740031803",
+        "name": "Hässlegårdens förskola (Karlskrona kn)",
+        "lon": 15.66338,
+        "lat": 56.2219,
+        "weight": 380,
+        "dist": 7810,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hjortahammars vsk (Ronneby kn)@X=15469914@Y=56197539@U=1@L=740032261@",
+        "extId": "740032261",
+        "name": "Hjortahammars vsk (Ronneby kn)",
+        "lon": 15.469914,
+        "lat": 56.197539,
+        "weight": 60,
+        "dist": 7929,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sturköhallen (Karlskrona kn)@X=15672639@Y=56114479@U=1@L=740031982@",
+        "extId": "740031982",
+        "name": "Sturköhallen (Karlskrona kn)",
+        "lon": 15.672639,
+        "lat": 56.114479,
+        "weight": 60,
+        "dist": 7937,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Augerums kyrka (Karlskrona kn)@X=15676918@Y=56217198@U=1@L=740031996@",
+        "extId": "740031996",
+        "name": "Augerums kyrka (Karlskrona kn)",
+        "lon": 15.676918,
+        "lat": 56.217198,
+        "weight": 9,
+        "dist": 7977,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hasslö Horn (Karlskrona kn)@X=15488675@Y=56118317@U=1@L=740072529@",
+        "extId": "740072529",
+        "name": "Hasslö Horn (Karlskrona kn)",
+        "lon": 15.488675,
+        "lat": 56.118317,
+        "weight": 26,
+        "dist": 8056,
+        "products": 256,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Norra Hässlegården (Karlskrona kn)@X=15664531@Y=56224444@U=1@L=740031802@",
+        "extId": "740031802",
+        "name": "Norra Hässlegården (Karlskrona kn)",
+        "lon": 15.664531,
+        "lat": 56.224444,
+        "weight": 380,
+        "dist": 8077,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bastasjö (Karlskrona kn)@X=15661690@Y=56225765@U=1@L=740031801@",
+        "extId": "740031801",
+        "name": "Bastasjö (Karlskrona kn)",
+        "lon": 15.66169,
+        "lat": 56.225765,
+        "weight": 380,
+        "dist": 8091,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hålan (Karlskrona kn)@X=15676873@Y=56112906@U=1@L=740031977@",
+        "extId": "740031977",
+        "name": "Hålan (Karlskrona kn)",
+        "lon": 15.676873,
+        "lat": 56.112906,
+        "weight": 60,
+        "dist": 8244,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Mariefors (Karlskrona kn)@X=15678886@Y=56221226@U=1@L=740031997@",
+        "extId": "740031997",
+        "name": "Mariefors (Karlskrona kn)",
+        "lon": 15.678886,
+        "lat": 56.221226,
+        "weight": 9,
+        "dist": 8382,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hasslö Horn kyrka (Karlskrona kn)@X=15481330@Y=56118434@U=1@L=740010554@",
+        "extId": "740010554",
+        "name": "Hasslö Horn kyrka (Karlskrona kn)",
+        "lon": 15.48133,
+        "lat": 56.118434,
+        "weight": 9,
+        "dist": 8392,
+        "products": 128,
+        "minimumChangeDuration": "PT5M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          },
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bredavik brygga (Karlskrona kn)@X=15686051@Y=56116133@U=1@L=740072446@",
+        "extId": "740072446",
+        "name": "Bredavik brygga (Karlskrona kn)",
+        "lon": 15.686051,
+        "lat": 56.116133,
+        "weight": 35,
+        "dist": 8400,
+        "products": 384,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Harstorp (Karlskrona kn)@X=15562827@Y=56241478@U=1@L=740032137@",
+        "extId": "740032137",
+        "name": "Harstorp (Karlskrona kn)",
+        "lon": 15.562827,
+        "lat": 56.241478,
+        "weight": 9,
+        "dist": 8434,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Golfbanan (Ronneby kn)@X=15450309@Y=56157079@U=1@L=740032268@",
+        "extId": "740032268",
+        "name": "Golfbanan (Ronneby kn)",
+        "lon": 15.450309,
+        "lat": 56.157079,
+        "weight": 9,
+        "dist": 8436,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sturkö Kvarnen (Karlskrona kn)@X=15681583@Y=56112959@U=1@L=740000469@",
+        "extId": "740000469",
+        "name": "Sturkö Kvarnen (Karlskrona kn)",
+        "lon": 15.681583,
+        "lat": 56.112959,
+        "weight": 60,
+        "dist": 8443,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sturkö skola (Karlskrona kn)@X=15680765@Y=56112079@U=1@L=740031978@",
+        "extId": "740031978",
+        "name": "Sturkö skola (Karlskrona kn)",
+        "lon": 15.680765,
+        "lat": 56.112079,
+        "weight": 60,
+        "dist": 8478,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Torstäva vsk (Karlskrona kn)@X=15719482@Y=56183705@U=1@L=740031964@",
+        "extId": "740031964",
+        "name": "Torstäva vsk (Karlskrona kn)",
+        "lon": 15.719482,
+        "lat": 56.183705,
+        "weight": 60,
+        "dist": 8516,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Torsnäsvägen (Karlskrona kn)@X=15722529@Y=56175048@U=1@L=740031965@",
+        "extId": "740031965",
+        "name": "Torsnäsvägen (Karlskrona kn)",
+        "lon": 15.722529,
+        "lat": 56.175048,
+        "weight": 60,
+        "dist": 8543,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Sturkövägen vägskäl E22 (Karlskrona kn)@X=15719823@Y=56184352@U=1@L=740022583@",
+        "extId": "740022583",
+        "name": "Sturkövägen vägskäl E22 (Karlskrona kn)",
+        "lon": 15.719823,
+        "lat": 56.184352,
+        "weight": 380,
+        "dist": 8553,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hajvar (Ronneby kn)@X=15455100@Y=56140098@U=1@L=740032430@",
+        "extId": "740032430",
+        "name": "Hajvar (Ronneby kn)",
+        "lon": 15.4551,
+        "lat": 56.140098,
+        "weight": 9,
+        "dist": 8598,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Slätthammar (Ronneby kn)@X=15448556@Y=56151910@U=1@L=740032431@",
+        "extId": "740032431",
+        "name": "Slätthammar (Ronneby kn)",
+        "lon": 15.448556,
+        "lat": 56.15191,
+        "weight": 9,
+        "dist": 8635,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "256"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Trummenäs brygga (Karlskrona kn)@X=15724543@Y=56160225@U=1@L=740076466@",
+        "extId": "740076466",
+        "name": "Trummenäs brygga (Karlskrona kn)",
+        "lon": 15.724543,
+        "lat": 56.160225,
+        "weight": 26,
+        "dist": 8649,
+        "products": 256,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bränteknuva vsk (Karlskrona kn)@X=15558844@Y=56243860@U=1@L=740032132@",
+        "extId": "740032132",
+        "name": "Bränteknuva vsk (Karlskrona kn)",
+        "lon": 15.558844,
+        "lat": 56.24386,
+        "weight": 9,
+        "dist": 8738,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hasslöbron (Ronneby kn)@X=15459316@Y=56131495@U=1@L=740024366@",
+        "extId": "740024366",
+        "name": "Hasslöbron (Ronneby kn)",
+        "lon": 15.459316,
+        "lat": 56.131495,
+        "weight": 9,
+        "dist": 8739,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bredavik (Karlskrona kn)@X=15691139@Y=56114020@U=1@L=740031976@",
+        "extId": "740031976",
+        "name": "Bredavik (Karlskrona kn)",
+        "lon": 15.691139,
+        "lat": 56.11402,
+        "weight": 60,
+        "dist": 8792,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hasslö (Karlskrona kn)@X=15475290@Y=56115234@U=1@L=740023345@",
+        "extId": "740023345",
+        "name": "Hasslö (Karlskrona kn)",
+        "lon": 15.47529,
+        "lat": 56.115234,
+        "weight": 9,
+        "dist": 8908,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Trummenäs Camping (Karlskrona kn)@X=15730350@Y=56160962@U=1@L=740078775@",
+        "extId": "740078775",
+        "name": "Trummenäs Camping (Karlskrona kn)",
+        "lon": 15.73035,
+        "lat": 56.160962,
+        "dist": 9001,
+        "products": 0,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Torstäva (Karlskrona kn)@X=15731905@Y=56172019@U=1@L=740031966@",
+        "extId": "740031966",
+        "name": "Torstäva (Karlskrona kn)",
+        "lon": 15.731905,
+        "lat": 56.172019,
+        "weight": 60,
+        "dist": 9093,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Bränteknuva by (Karlskrona kn)@X=15541235@Y=56245757@U=1@L=740032146@",
+        "extId": "740032146",
+        "name": "Bränteknuva by (Karlskrona kn)",
+        "lon": 15.541235,
+        "lat": 56.245757,
+        "weight": 9,
+        "dist": 9208,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Ryd (Karlskrona kn)@X=15687579@Y=56106128@U=1@L=740023356@",
+        "extId": "740023356",
+        "name": "Ryd (Karlskrona kn)",
+        "lon": 15.687579,
+        "lat": 56.106128,
+        "weight": 60,
+        "dist": 9248,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Mölleåker (Karlskrona kn)@X=15687336@Y=56227797@U=1@L=740031998@",
+        "extId": "740031998",
+        "name": "Mölleåker (Karlskrona kn)",
+        "lon": 15.687336,
+        "lat": 56.227797,
+        "weight": 9,
+        "dist": 9273,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Rödeby Ek (Karlskrona kn)@X=15621958@Y=56248076@U=1@L=740011293@",
+        "extId": "740011293",
+        "name": "Rödeby Ek (Karlskrona kn)",
+        "lon": 15.621958,
+        "lat": 56.248076,
+        "weight": 380,
+        "dist": 9330,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hasslö Fabian Månsons väg (Karlskrona kn)@X=15470076@Y=56112501@U=1@L=740000017@",
+        "extId": "740000017",
+        "name": "Hasslö Fabian Månsons väg (Karlskrona kn)",
+        "lon": 15.470076,
+        "lat": 56.112501,
+        "weight": 9,
+        "dist": 9351,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Frändatorp (Karlskrona kn)@X=15701980@Y=56112321@U=1@L=740031975@",
+        "extId": "740031975",
+        "name": "Frändatorp (Karlskrona kn)",
+        "lon": 15.70198,
+        "lat": 56.112321,
+        "weight": 60,
+        "dist": 9424,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Lyckeåborg (Karlskrona kn)@X=15689179@Y=56229352@U=1@L=740010999@",
+        "extId": "740010999",
+        "name": "Lyckeåborg (Karlskrona kn)",
+        "lon": 15.689179,
+        "lat": 56.229352,
+        "weight": 9,
+        "dist": 9477,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Hasslö Näsvägen (Karlskrona kn)@X=15458884@Y=56117886@U=1@L=740024855@",
+        "extId": "740024855",
+        "name": "Hasslö Näsvägen (Karlskrona kn)",
+        "lon": 15.458884,
+        "lat": 56.117886,
+        "weight": 9,
+        "dist": 9537,
+        "products": 128,
+        "minimumChangeDuration": "PT0S"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Trummenäsvägen (Karlskrona kn)@X=15739977@Y=56170365@U=1@L=740031967@",
+        "extId": "740031967",
+        "name": "Trummenäsvägen (Karlskrona kn)",
+        "lon": 15.739977,
+        "lat": 56.170365,
+        "weight": 60,
+        "dist": 9583,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Killevägen (Karlskrona kn)@X=15690482@Y=56102757@U=1@L=740031979@",
+        "extId": "740031979",
+        "name": "Killevägen (Karlskrona kn)",
+        "lon": 15.690482,
+        "lat": 56.102757,
+        "weight": 60,
+        "dist": 9646,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Mörtövägen (Karlskrona kn)@X=15624969@Y=56251663@U=1@L=740032018@",
+        "extId": "740032018",
+        "name": "Mörtövägen (Karlskrona kn)",
+        "lon": 15.624969,
+        "lat": 56.251663,
+        "weight": 380,
+        "dist": 9763,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Målatorps vsk (Karlskrona kn)@X=15528047@Y=56249200@U=1@L=740032133@",
+        "extId": "740032133",
+        "name": "Målatorps vsk (Karlskrona kn)",
+        "lon": 15.528047,
+        "lat": 56.2492,
+        "weight": 9,
+        "dist": 9838,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Dragsvik (Karlskrona kn)@X=15711400@Y=56110712@U=1@L=740031974@",
+        "extId": "740031974",
+        "name": "Dragsvik (Karlskrona kn)",
+        "lon": 15.7114,
+        "lat": 56.110712,
+        "weight": 60,
+        "dist": 9990,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    },
+    {
+      "StopLocation": {
+        "productAtStop": [
+          {
+            "icon": {
+              "res": "prod_gen"
+            },
+            "cls": "128"
+          }
+        ],
+        "timezoneOffset": 60,
+        "id": "A=1@O=Förkärla kyrka (Ronneby kn)@X=15433652@Y=56197287@U=1@L=740032287@",
+        "extId": "740032287",
+        "name": "Förkärla kyrka (Ronneby kn)",
+        "lon": 15.433652,
+        "lat": 56.197287,
+        "weight": 60,
+        "dist": 9991,
+        "products": 128,
+        "minimumChangeDuration": "PT26M"
+      }
+    }
+  ],
+  "TechnicalMessages": {
+    "TechnicalMessage": [
+      {
+        "value": "2026-11-16 13:55:51",
+        "key": "requestTime"
+      },
+      {
+        "value": "ttp=17118#17483 plancode0=yukg3 planid=1794776213 planid0=1794776213 planid_adr=1479298166 plancode_adr=q0r10 srvv=5.45.SAMTRAFIKEN.15.0.1 (customer/hcusamtrafiken/release/2023.10.0) [2023-10-19] tlibv=TRFVER: rel/pproxy/4.00.0 2022-10-24 18:24:51 +0200 Relay_EnrichmentProxy v1 jno=1",
+        "key": "backendInfo"
+      }
+    ]
+  },
+  "serverVersion": "2.45.1",
+  "dialectVersion": "2.45",
+  "requestId": "bewanqecisc79m8g"
+}

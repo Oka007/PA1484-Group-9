@@ -8,7 +8,7 @@ private:
     int minutes;
     
 public:
-    Time (int min, int h) 
+    Time (int h, int min) 
         : hours(h),minutes (min) {}
 
    int getHours() const {
