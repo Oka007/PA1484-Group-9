@@ -2,11 +2,60 @@
 // #include "project.ino"
 #include "secrets.h"
 #include "saveSettings.h"
+#include <ArduinoJson.h>
+#include <LittleFS.h>
+#include "departureScreen.h"
+
 
 lv_obj_t *wifiStatus = nullptr;
+static JsonDocument station_json;
+JsonArray station_array;
+
 
 //Global variable that shows what station is selected 
 String station_alt = "";
+
+String readStations() {
+    Serial.println("Run readStations()");
+
+    if (!LittleFS.begin(true)) {
+        Serial.println("Could not begin LittleFS");
+        return "";
+    }
+
+    File file = LittleFS.open("/karlskrona_stations.json", "r");
+
+    if (!file) {
+        Serial.println("Stations could not be opened");
+        return "";
+    }
+
+
+    DeserializationError error = deserializeJson(station_json, file);
+    file.close();
+
+    if(error){
+        Serial.print("Deserialisation failed: ");
+        Serial.println(error.f_str());
+        return "";
+    }
+
+    station_array = station_json["stopLocationOrCoordLocation"].as<JsonArray>();
+    
+    String station_options = "";
+
+    for (JsonObject station : station_array) {
+        String name = station["StopLocation"]["name"];
+
+        if (station_options.length() > 0) {
+            station_options += "\n";
+        }
+
+        station_options += name;
+    }
+
+    return station_options;
+}
 
 // Makes an event based on what changes with the stations drop box
 static void event_handler_stops(lv_event_t *e)
@@ -27,6 +76,8 @@ static void event_handler_stops(lv_event_t *e)
         int selectedVal = lv_dropdown_get_selected(obj);
         preferences.putInt("selectedStop", selectedVal);
         Serial.println("STOP");
+
+        update_departure_title(selectedVal);
     }
 }
 // Makes an event based on what changes with the transporttypes drop box
@@ -49,11 +100,11 @@ static void event_handler_transport(lv_event_t *e)
 }
 
 // Create the settings screen UI
-void create_settings_screen(lv_obj_t *settingsTile, const char* stations)
+void create_settings_screen(lv_obj_t *settingsTile)
 {
 
     lv_obj_t *title = lv_label_create(settingsTile);
-    lv_label_set_text(title, "Settings");
+    lv_label_set_text(title, "Options");
 
     lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 20);
 
@@ -64,17 +115,18 @@ void create_settings_screen(lv_obj_t *settingsTile, const char* stations)
 
     // Create a drop down list for stations
     lv_obj_t *stop_list = lv_dropdown_create(settingsTile);
-    lv_dropdown_set_options(stop_list, stations);
+    lv_dropdown_set_options(stop_list, readStations().c_str());
 
     // Set selected stop to saved settings during startup
     int selectedStop = preferences.getInt("selectedStop");
     lv_dropdown_set_selected(stop_list, selectedStop);
 
     // Set the size and position of drop down list for stations
-    lv_obj_set_size(stop_list, 150, 50);
+    lv_obj_set_size(stop_list, 300, 100);
     lv_obj_align(stop_list, LV_ALIGN_TOP_LEFT, 50, 70);
 
     // Makes an event happen every time a change happens in the list for stations
     lv_obj_add_event_cb(stop_list, event_handler_stops, LV_EVENT_ALL, NULL);
 }
+
 // "station 12\n "station 13"

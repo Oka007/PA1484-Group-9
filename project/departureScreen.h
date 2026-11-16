@@ -14,3 +14,5 @@ void create_departure_screen(lv_obj_t* departureTile);
 void update_departure_screen(
     const std::vector<std::shared_ptr<Transport>>& transports
 );
+
+void update_departure_title(int selectedStationIndex);

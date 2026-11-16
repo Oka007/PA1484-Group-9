@@ -1,7 +1,10 @@
 #include "departureScreen.h"
+#include "saveSettings.h"
+#include "settingsScreen.h"
 
 // Pointer to the departure table
 lv_obj_t* departureTable = nullptr;
+lv_obj_t* departure_title = nullptr;
 
 // Create the departure screen UI
 void create_departure_screen(lv_obj_t* departureTile)
@@ -9,9 +12,9 @@ void create_departure_screen(lv_obj_t* departureTile)
     lv_coord_t screenWidth = lv_obj_get_width(departureTile);
     
     // Creat title
-    lv_obj_t* title = lv_label_create(departureTile);
-    lv_label_set_text(title, "Departures");
-    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 20);
+    departure_title = lv_label_create(departureTile);
+    lv_label_set_text(departure_title, "Departures");
+    lv_obj_align(departure_title, LV_ALIGN_TOP_MID, 0, 20);
     
     // Create departure table
     departureTable = lv_table_create(departureTile);
@@ -101,4 +104,11 @@ void update_departure_screen(const std::vector<std::shared_ptr<Transport>>& tran
         }
     }
     
+}
+
+void update_departure_title(int selectedStationIndex) {
+    // Gets name from the json
+    JsonObject stop = station_array[selectedStationIndex]["StopLocation"];
+    String name = stop["name"].as<String>();
+    lv_label_set_text(departure_title, name.c_str());
 }
