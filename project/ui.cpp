@@ -1,7 +1,7 @@
 #include "ui.h"
 #include "departureScreen.h"
 #include "settingsScreen.h"
-//#include "journeySelectionScreen.h"
+#include "journeySelectionScreen.h"
 
 
 static lv_obj_t* tileview;
@@ -62,9 +62,9 @@ void create_ui()
 
   // Main screens
   t1 = lv_tileview_add_tile(tileview, 0, 1, LV_DIR_RIGHT);
-  t2 = lv_tileview_add_tile(tileview, 1, 1, LV_DIR_LEFT | LV_DIR_TOP);
+  t2 = lv_tileview_add_tile(tileview, 1, 1, LV_DIR_LEFT | LV_DIR_TOP | LV_DIR_RIGHT);
 
-  //t4 = lv_tileview_add_tile(tileview, 2, 1, LV_DIR_LEFT);
+  t4 = lv_tileview_add_tile(tileview, 2, 1, LV_DIR_LEFT);
 
   // Start on the Starting Screen
   lv_obj_set_tile(tileview, t1, LV_ANIM_OFF);
@@ -89,32 +89,15 @@ void create_ui()
   {
     create_departure_screen(t2);
   }
-  //lv_obj_t* journeyButteon = lv_bth_create(12)
- /*
-  lv_obj_set_size(journeyButton, 100, 35);
-
-  lv_obj_align(journeyButton, LV_ALIGN_TOP_RIGHT, -9,5)
-
-  lv_label_set_text(journeyText, "journeys");
-  lv_obj_center(journeyText);
-  lv_obj_add_event_cb(journeyButton, open_journey, LV_EVENT_CLICKED, NULL);
- */
-  // Tile #3
+  // Tile #4
+  {
+    create_journey_selection_screen(t4);
+  }
+  //Tile #3
   {
     create_settings_screen(t3);
-  
   }
-
-  /* create_journey_selection_screen(t4);
-  lv_obj_t* backButton = lv_btn_create(t4)
-
-  lv_obj_set_size(backButton, 73, 30);
-
-  lv_obj_align(backButton, LV_ALIGN_TOP_LEFT, 10,5);
-  lv_label_set_text(backButton, "Back");
-  lv_obj_center(backText);
-
-  lv_obj_add_event_cb(backButton, back_to_departures, LV_EVENT_CLICKED, NULL); */
 }
+
 
 
