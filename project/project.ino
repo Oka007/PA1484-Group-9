@@ -72,17 +72,13 @@ void setup()
   departures = readDepartures(api_json);
   
   //Start_Stations station("Karlskrona C", "1");
-
-
-
+  
   /* departures.push_back(std::make_shared<Bus>("Saltö", "1", station, Time(40, 20), "On Time"));
   departures.push_back(std::make_shared<Bus>("Campus Gräsvik", "1", station, Time(30, 23), "Late 3min"));
   departures.push_back(std::make_shared<Bus>("Bergåsa", "123", station, Time(55, 20), "On Time"));
   departures.push_back(std::make_shared<Bus>("Kungsmarken", "4", station, Time(59, 20), "On Time")); */
 
-  update_departure_screen(departures, "All");
-
-  
+  update_departure_screen(departures, "ALL");
 }
 
 // Must have function: Loop runs continously on device after setup
@@ -90,6 +86,16 @@ void loop()
 {
   lv_timer_handler();
   delay(5);
+
+  static unsigned long latestUpdate = 0;
+  const unsigned long updateInterval = 60000;
+
+  if (millis() - latestUpdate >= updateInterval)
+  {
+    latestUpdate = millis();
+
+    refresh_departures();
+  }
 
   int wifiStrength = get_wifi_strength();
   update_wifi_display(wifiStrength);

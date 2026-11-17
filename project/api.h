@@ -5,7 +5,7 @@
 #include <string>
 #include <cstdio>
 
-JsonDocument getApiData(String loc_id);
+JsonDocument getApiData(std::string loc_id);
 Time parseTime(const char* timestamp);
 
 using TransportList = std::vector<std::shared_ptr<Transport>>;

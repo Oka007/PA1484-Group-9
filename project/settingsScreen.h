@@ -6,7 +6,8 @@
 #include <vector>
 #include "Transport/transport.h"
 
-extern String selected_stop_id;
+extern string selected_stop_id;
+extern std::string selected_transport;
 
 extern std::vector<std::shared_ptr<Transport>> departures;
 // Declared globallt so other functions can update it

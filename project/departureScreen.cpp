@@ -12,10 +12,14 @@ lv_obj_t* departure_title = nullptr;
 static void refresh_departures(lv_event_t* event)
 // Refreshbuttons actions while being pressed.
 {
+    refresh_departures();
+}
+void refresh_departures()
+{
     JsonDocument api_json;
     api_json = getApiData(selected_stop_id);
     departures = readDepartures(api_json);
-    update_departure_screen(departures, "All");
+    update_departure_screen(departures, selected_transport);
 }
 
 // Create the departure screen UI

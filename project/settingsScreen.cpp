@@ -14,9 +14,9 @@ JsonArray station_array;
 //Global variable that shows what station is selected 
 String station_alt = "";
 
-String selected_stop_id = "";
+std::string selected_stop_id = "";
 
-std::string selected_transport = "All";
+std::string selected_transport = "ALL";
 
 LV_FONT_DECLARE(Swedish);
 
@@ -84,7 +84,7 @@ static void event_handler_stops(lv_event_t *e)
 
         // Update departure screen
         update_departure_title(selectedVal);
-        selected_stop_id = station_array[selectedVal]["StopLocation"]["extId"].as<String>();
+        selected_stop_id = station_array[selectedVal]["StopLocation"]["extId"].as<std::string>();
         JsonDocument api_json;
         api_json = getApiData(selected_stop_id);
         departures = readDepartures(api_json);
@@ -112,7 +112,7 @@ static void event_handler_transport(lv_event_t *e)
         selected_transport = buf;
 
         // Update departure screen
-        selected_stop_id = station_array[selectedVal]["StopLocation"]["extId"].as<String>();
+        selected_stop_id = station_array[selectedVal]["StopLocation"]["extId"].as<std::string>();
         JsonDocument api_json;
         api_json = getApiData(selected_stop_id);
         departures = readDepartures(api_json);

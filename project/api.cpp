@@ -11,7 +11,7 @@
 #include <string>
  
 //A function that takes a stations id and returns a jsondocument with departures and other info. 
-JsonDocument getApiData(String loc_id){
+JsonDocument getApiData(std::string loc_id){
     JsonDocument fail;
     
     if (WiFi.status() != WL_CONNECTED) {
@@ -22,7 +22,7 @@ JsonDocument getApiData(String loc_id){
     Key = String(api_Key); 
 
     HTTPClient http; 
-    String url = "https://realtime-api.trafiklab.se/v1/departures/" + loc_id + "?key=" + Key;
+    String url = String("https://realtime-api.trafiklab.se/v1/departures/") + loc_id.c_str() + "?key=" + Key;
 
     http.begin(url);
 

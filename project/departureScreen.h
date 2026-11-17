@@ -7,6 +7,7 @@
 
 #include "Transport/transport.h"
 
+void refresh_departures();
 // Create the departure screen UI
 void create_departure_screen(lv_obj_t* departureTile);
 
