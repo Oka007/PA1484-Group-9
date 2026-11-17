@@ -5,7 +5,6 @@
 #include <ArduinoJson.h>
 #include <LittleFS.h>
 #include "departureScreen.h"
-#include "api.hpp"
 
 lv_obj_t *wifiStatus = nullptr;
 static JsonDocument station_json;
