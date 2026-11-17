@@ -5,8 +5,8 @@
 
 class Ferry : public Transport {
 public:
-    Ferry(string des, string line, Start_Stations s, Time t, string status)
-        : Transport(des, line, s, t, status)
+    Ferry(string des, string line, Start_Stations s, Time t, string status, int delay)
+        : Transport(des, line, s, t, status, delay)
     {
     }
     
@@ -19,6 +19,9 @@ public:
                         departureTime.getHours(),
                         departureTime.getMinutes());
 
+    }
+    string getType() const override {
+        return "FERRY";
     }
 
 };

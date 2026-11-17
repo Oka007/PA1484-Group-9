@@ -9,8 +9,10 @@
 #include <lvgl.h>
 #include <cstdio>
 
+
 #include "secrets.h"
 #include "saveSettings.h"
+#include "api.h"
 
 
 LilyGo_Class amoled;
@@ -22,6 +24,8 @@ Preferences preferences;
 #include "connectionStatus.h"
 #include "Transport/transport.h"
 #include "Transport/buss.h"
+
+std::vector<std::shared_ptr<Transport>> departures;
 
 // Function: Connects to WIFI
 static void connect_wifi()
@@ -61,16 +65,22 @@ void setup()
   connect_wifi();
   create_ui();
 
-  std::vector<std::shared_ptr<Transport>> departures;
 
-  Start_Stations station("Karlskrona C", "1");
+  JsonDocument api_json;
+  api_json = getApiData("740000230");
 
-  departures.push_back(std::make_shared<Bus>("Saltö", "1", station, Time(40, 20), "On Time"));
+  departures = readDepartures(api_json);
+  
+  //Start_Stations station("Karlskrona C", "1");
+
+
+
+  /* departures.push_back(std::make_shared<Bus>("Saltö", "1", station, Time(40, 20), "On Time"));
   departures.push_back(std::make_shared<Bus>("Campus Gräsvik", "1", station, Time(30, 23), "Late 3min"));
   departures.push_back(std::make_shared<Bus>("Bergåsa", "123", station, Time(55, 20), "On Time"));
-  departures.push_back(std::make_shared<Bus>("Kungsmarken", "4", station, Time(59, 20), "On Time"));
+  departures.push_back(std::make_shared<Bus>("Kungsmarken", "4", station, Time(59, 20), "On Time")); */
 
-  update_departure_screen(departures);
+  update_departure_screen(departures, "All");
 
   
 }

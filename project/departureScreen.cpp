@@ -1,24 +1,40 @@
 #include "departureScreen.h"
 #include "saveSettings.h"
 #include "settingsScreen.h"
+#include "api.h"
+
+LV_FONT_DECLARE(Swedish);
 
 // Pointer to the departure table
 lv_obj_t* departureTable = nullptr;
 lv_obj_t* departure_title = nullptr;
 
+static void refresh_departures(lv_event_t* event)
+// Refreshbuttons actions while being pressed.
+{
+    JsonDocument api_json;
+    api_json = getApiData(selected_stop_id);
+    departures = readDepartures(api_json);
+    update_departure_screen(departures, "All");
+}
+
 // Create the departure screen UI
 void create_departure_screen(lv_obj_t* departureTile)
 {   
+    
     lv_coord_t screenWidth = lv_obj_get_width(departureTile);
     
     // Creat title
     departure_title = lv_label_create(departureTile);
     lv_label_set_text(departure_title, "Departures");
+    lv_obj_set_style_text_font(departure_title, &Swedish, LV_PART_MAIN);
+
     lv_obj_align(departure_title, LV_ALIGN_TOP_MID, 0, 20);
     
     // Create departure table
     departureTable = lv_table_create(departureTile);
-    
+    lv_obj_set_style_text_font(departureTable, &Swedish, LV_PART_MAIN);
+
     // Set table rows and columns
     lv_table_set_row_cnt(departureTable, 5);
     lv_table_set_col_cnt(departureTable, 4);
@@ -64,11 +80,26 @@ void create_departure_screen(lv_obj_t* departureTile)
     
     // Table alignment
     lv_obj_align(departureTable, LV_ALIGN_TOP_MID, 0, 70);
+
+    // Creates button
+    lv_obj_t* refreshButton = lv_btn_create(departureTile);
+
+    //  Aligns button
+    lv_obj_set_size(refreshButton, 110, 40);
+    lv_obj_align(refreshButton, LV_ALIGN_BOTTOM_RIGHT, -10, -10);
+
+    // Adds a click event to button
+    lv_obj_add_event_cb(refreshButton, refresh_departures, LV_EVENT_CLICKED, NULL);
+    
+    // Adds a button label
+    lv_obj_t* refreshLabel = lv_label_create(refreshButton);
+    lv_label_set_text(refreshLabel, "Refresh");
+    lv_obj_center(refreshLabel);
 }
 
 
 // Updates departurescreens UI
-void update_departure_screen(const std::vector<std::shared_ptr<Transport>>& transports) 
+void update_departure_screen(const std::vector<std::shared_ptr<Transport>>& transports, string type) 
 {
     // Check that table exists
     if (departureTable == nullptr)
@@ -77,26 +108,47 @@ void update_departure_screen(const std::vector<std::shared_ptr<Transport>>& tran
     } 
 
     const int tableSize = 4;
+     int shownDepartures = 0;
 
-    int numberOfDepartures = static_cast<int>(transports.size());
+    for (const auto& transport : transports) {
+        if (!transport) {
+            continue;
+        }
 
-    for (int i = 0; i < numberOfDepartures && i < tableSize; i++)
-    {
-        // Gets Destination
-        lv_table_set_cell_value(departureTable, i + 1, 0, transports[i]->getDestination().c_str());
+        if (type != "ALL" && transport->getType() != type) {
+            continue;
+        }
+
+        if (shownDepartures >= tableSize) {
+            break;
+        }
+
+        const int row = shownDepartures + 1;
+
+        lv_table_set_cell_value(departureTable, row, 0, transport->getDestination().c_str());
 
         // Gets Line
-        lv_table_set_cell_value(departureTable, i + 1, 1, transports[i]->getLine().c_str());
+        lv_table_set_cell_value(departureTable, row, 1, transport->getLine().c_str());
         
         // Gets Time
-        lv_table_set_cell_value(departureTable, i + 1, 2, transports[i]->getDepartureTime().c_str());
+        lv_table_set_cell_value(departureTable, row, 2, transport->getDepartureTime().c_str());
     
-        //Gets Status
-        lv_table_set_cell_value(departureTable, i + 1, 3, transports[i]->getStatus().c_str());
-    }
+        
+        //Gets Status and adds time if delayed
+        if (transport->getStatus() == "Delayed") {
+            lv_table_set_cell_value_fmt(departureTable, row, 3, "Delayed %d min", + transport->getDelay());
+        } else {
+            lv_table_set_cell_value(departureTable, row, 3, transport->getStatus().c_str());
+        }
+
+        
+        shownDepartures++;
+    } 
+
+    
 
     // Clears lines with no new transport info
-    for (int i = numberOfDepartures; i < tableSize; i++)
+    for (int i = shownDepartures; i < tableSize; i++)
     {
         for (int column = 0; column < 4; column++ )
         {

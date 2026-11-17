@@ -2,7 +2,13 @@
 
 #include <ArduinoJson.h>
 #include <lvgl.h>
+#include <memory>
+#include <vector>
+#include "Transport/transport.h"
 
+extern String selected_stop_id;
+
+extern std::vector<std::shared_ptr<Transport>> departures;
 // Declared globallt so other functions can update it
 extern lv_obj_t* wifiStatus;
 extern JsonArray station_array;

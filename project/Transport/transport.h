@@ -15,12 +15,13 @@ protected:
     Start_Stations station;
     Time departureTime;
     string status;
+    int delay;
 
 public:
     Transport(string des, string L, Start_Stations s,
-              Time t, string status)
+              Time t, string status, int delay)
         : line(L), destination(des), station(s),
-          departureTime(t), status(status) {}
+          departureTime(t), status(status), delay(delay) {}
 
     string getDestination() const {
         return destination;
@@ -43,7 +44,14 @@ public:
         return status;
     }
 
+    int getDelay() const {
+        int delayMin = (delay/60) + 0.5;
+        return delayMin;
+    }
+
     virtual void Display() const = 0;
+
+    virtual string getType() const = 0;
 
     virtual ~Transport() = default;
 };

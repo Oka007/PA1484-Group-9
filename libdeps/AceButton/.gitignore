@@ -36,3 +36,4 @@ build
 
 # doxygen backup file
 doxygen.cfg.bak
+secret.h

@@ -3,6 +3,7 @@
 #include "settingsScreen.h"
 #include "journeySelectionScreen.h"
 
+LV_FONT_DECLARE(Swedish);
 
 static lv_obj_t* tileview;
 static lv_obj_t* t1;
@@ -76,7 +77,7 @@ void create_ui()
     lv_obj_set_y(t1_label, 150);
     lv_obj_set_y(t1_project_name, 70);
     lv_label_set_text(t1_project_name, "Public transport information and \ninteraction on ESP32");
-    lv_label_set_text(t1_label, "v.0.0\n Group 09\n Saga Lindqvist, Olle Andersson,\n Josefine Johnsson, Mahmmod Sulaiman, \nOlof Carlander");
+    lv_label_set_text(t1_label, "v.0.0\n Group 09\nOlle Andersson,\n Josefine Johnsson, Mahmmod Sulaiman, \nOlof Carlander");
     lv_obj_set_style_text_font(t1_label, &lv_font_montserrat_18, 0);
     lv_obj_set_style_text_font(t1_project_name, &lv_font_montserrat_28, 0);
     lv_obj_set_style_text_decor(t1_project_name, LV_TEXT_DECOR_UNDERLINE, 0);
@@ -90,9 +91,9 @@ void create_ui()
     create_departure_screen(t2);
   }
   // Tile #4
-  {
+  /* {
     create_journey_selection_screen(t4);
-  }
+  } */
   //Tile #3
   {
     create_settings_screen(t3);

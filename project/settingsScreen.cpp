@@ -5,6 +5,7 @@
 #include <ArduinoJson.h>
 #include <LittleFS.h>
 #include "departureScreen.h"
+#include "api.h"
 
 lv_obj_t *wifiStatus = nullptr;
 static JsonDocument station_json;
@@ -12,6 +13,12 @@ JsonArray station_array;
 
 //Global variable that shows what station is selected 
 String station_alt = "";
+
+String selected_stop_id = "";
+
+std::string selected_transport = "All";
+
+LV_FONT_DECLARE(Swedish);
 
 String readStations() {
     Serial.println("Run readStations()");
@@ -75,7 +82,13 @@ static void event_handler_stops(lv_event_t *e)
         preferences.putInt("selectedStop", selectedVal);
         Serial.println("STOP");
 
+        // Update departure screen
         update_departure_title(selectedVal);
+        selected_stop_id = station_array[selectedVal]["StopLocation"]["extId"].as<String>();
+        JsonDocument api_json;
+        api_json = getApiData(selected_stop_id);
+        departures = readDepartures(api_json);
+        update_departure_screen(departures, selected_transport);
     }
 }
 // Makes an event based on what changes with the transporttypes drop box
@@ -94,6 +107,16 @@ static void event_handler_transport(lv_event_t *e)
         int selectedVal = lv_dropdown_get_selected(obj);
         preferences.putInt("selectedTran", selectedVal);
         Serial.println("TRANSPORT");
+
+        // Update to selected transport type
+        selected_transport = buf;
+
+        // Update departure screen
+        selected_stop_id = station_array[selectedVal]["StopLocation"]["extId"].as<String>();
+        JsonDocument api_json;
+        api_json = getApiData(selected_stop_id);
+        departures = readDepartures(api_json);
+        update_departure_screen(departures, selected_transport);
     }
 }
 
@@ -115,17 +138,41 @@ void create_settings_screen(lv_obj_t *settingsTile)
     // Create a drop down list for stations
     lv_obj_t *stop_list = lv_dropdown_create(settingsTile);
     lv_dropdown_set_options(stop_list, readStations().c_str());
+    lv_obj_set_style_text_font(stop_list, &Swedish, LV_PART_MAIN);
 
+    lv_obj_t *stop_list_items = lv_dropdown_get_list(stop_list);
+    lv_obj_set_style_text_font(stop_list_items, &Swedish, LV_PART_MAIN);
+    lv_obj_set_style_text_font(stop_list_items, &Swedish, LV_PART_SELECTED);
+    
     // Set selected stop to saved settings during startup
     int selectedStop = preferences.getInt("selectedStop");
     lv_dropdown_set_selected(stop_list, selectedStop);
 
     // Set the size and position of drop down list for stations
-    lv_obj_set_size(stop_list, 300, 100);
-    lv_obj_align(stop_list, LV_ALIGN_TOP_LEFT, 50, 70);
+    lv_obj_set_size(stop_list, 250, 100);
+    lv_obj_align(stop_list, LV_ALIGN_CENTER, 0, -60);
 
     // Makes an event happen every time a change happens in the list for stations
     lv_obj_add_event_cb(stop_list, event_handler_stops, LV_EVENT_ALL, NULL);
+
+    // Create a drop down list for transport types
+    lv_obj_t *trans_list = lv_dropdown_create(settingsTile);
+    lv_dropdown_set_options(trans_list, "ALL\nBUS\nTRAIN\nFERRY");
+    lv_obj_set_style_text_font(trans_list, &Swedish, LV_PART_MAIN);
+
+    lv_obj_t *trans_list_items = lv_dropdown_get_list(stop_list);
+    lv_obj_set_style_text_font(trans_list_items, &Swedish, LV_PART_MAIN);
+    lv_obj_set_style_text_font(trans_list_items, &Swedish, LV_PART_SELECTED);
+    
+    // Set selected stop to saved settings during startup
+    int selected_trans = preferences.getInt("selectedStop");
+    lv_dropdown_set_selected(trans_list, selected_trans);
+
+    // Set the size and position of drop down list for stations
+    lv_obj_set_size(trans_list, 250, 100);
+    lv_obj_align(trans_list, LV_ALIGN_CENTER, 0, 60);
+
+    // Makes an event happen every time a change happens in the list for stations
+    lv_obj_add_event_cb(trans_list, event_handler_transport, LV_EVENT_ALL, NULL);
 }
 
-// "station 12\n "station 13"

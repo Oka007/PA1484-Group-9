@@ -12,7 +12,7 @@ void create_departure_screen(lv_obj_t* departureTile);
 
 // Update the departure table
 void update_departure_screen(
-    const std::vector<std::shared_ptr<Transport>>& transports
-);
+    const std::vector<std::shared_ptr<Transport>>& transports,
+    string type);
 
 void update_departure_title(int selectedStationIndex);

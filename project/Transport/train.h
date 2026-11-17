@@ -5,14 +5,18 @@
 
 class Train : public Transport {
     public:
-        Train(string des, string line , Start_Stations s, Time t, string status) : Transport(des, line, s, t, status) {}
+        Train(string des, string line , Start_Stations s, Time t, string status, int delay) : Transport(des, line, s, t, status, delay) {}
 
-       void Display() const {
+        void Display() const {
             Serial.printf("Train: %s\n", line.c_str());
             Serial.printf("Destination: %s\n", destination.c_str());
             Serial.printf("Start_Station_ %s\n", station.getNamn().c_str());
             Serial.printf("Departure:  %02d:%02d\n", departureTime.getHours(), departureTime.getMinutes());
        }
+
+        string getType() const override {
+            return "TRAIN";
+        }
     
     /*void Display() const {
             cout<<"Train : "<< line << endl;
