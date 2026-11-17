@@ -5,12 +5,11 @@
 #include <ArduinoJson.h>
 #include <LittleFS.h>
 #include "departureScreen.h"
-
+#include "api.hpp"
 
 lv_obj_t *wifiStatus = nullptr;
 static JsonDocument station_json;
 JsonArray station_array;
-
 
 //Global variable that shows what station is selected 
 String station_alt = "";
@@ -104,7 +103,8 @@ void create_settings_screen(lv_obj_t *settingsTile)
 {
 
     lv_obj_t *title = lv_label_create(settingsTile);
-    lv_label_set_text(title, "Options");
+
+    lv_label_set_text(title, "settings");
 
     lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 20);
 

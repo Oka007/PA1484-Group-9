@@ -57,9 +57,9 @@ void setup()
 
   beginLvglHelper(amoled);   // init LVGL for this board
 
-  create_ui();
   Serial.println("UI created");
   connect_wifi();
+  create_ui();
 
   std::vector<std::shared_ptr<Transport>> departures;
 
