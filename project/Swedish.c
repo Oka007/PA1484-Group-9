@@ -3,7 +3,7 @@
  * Bpp: 4
  * Opts: --bpp 4 --size 16 --no-compress --stride 1 --align 1 --font Roboto-VariableFont_wdth,wght.ttf --symbols åäöÅÄÖ --range 32-126 --format lvgl -o Swedish.c
  ******************************************************************************/
-/
+
 #ifdef __has_include
     #if __has_include("lvgl.h")
         #ifndef LV_LVGL_H_INCLUDE_SIMPLE
@@ -1239,7 +1239,7 @@ lv_font_t Swedish = {
     .underline_position = -1,
     .underline_thickness = 1,
 #endif
-    .static_bitmap = 0,
+   // .static_bitmap = 0,
     .dsc = &font_dsc,          /*The custom font data. Will be accessed by `get_glyph_bitmap/dsc` */
 #if LV_VERSION_CHECK(8, 2, 0) || LVGL_VERSION_MAJOR >= 9
     .fallback = NULL,

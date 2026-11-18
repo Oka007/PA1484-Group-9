@@ -51,8 +51,7 @@ static void back_to_departures(lv_event_t* e)
 
 
 // Function: Creates UI
-void create_ui()
-{
+void create_ui() {
   // Fullscreen Tileview
   tileview = lv_tileview_create(lv_scr_act());
   lv_obj_set_size(tileview, lv_disp_get_hor_res(NULL), lv_disp_get_ver_res(NULL));
@@ -90,13 +89,13 @@ void create_ui()
   {
     create_departure_screen(t2);
   }
-  // Tile #4
-  /* {
-    create_journey_selection_screen(t4);
-  } */
-  //Tile #3
+  //Tile #4
   {
-    create_settings_screen(t3);
+    create_journey_selection_screen(t4);
+    //Tile #3
+    {
+      create_settings_screen(t3);
+    }
   }
 }
 

@@ -1,4 +1,4 @@
-/*
+
 
 #include "journeySelectionScreen.h"
 #include "settingsScreen.h"
@@ -96,10 +96,10 @@ void create_journey_selection_screen(lv_obj_t* journeyTile)
     lv_obj_set_width(toStop, 300);
     lv_obj_align(toStop, LV_ALIGN_TOP_LEFT, 50, 140);
 
-    // Results
+
     lv_obj_t* resultBox = lv_obj_create(journeyTile);
     lv_obj_set_size(resultBox, 300, 130);
-    lv_obj_align(resultBox, LV_ALIGN_TOP_LEFT, 40, 185);
+    lv_obj_align(resultBox, LV_ALIGN_TOP_LEFT, 40, 140);
     lv_obj_set_scroll_dir(resultBox, LV_DIR_VER);
 
     resultLabel = lv_label_create(resultBox);
@@ -107,9 +107,8 @@ void create_journey_selection_screen(lv_obj_t* journeyTile)
     lv_label_set_long_mode(resultLabel, LV_LABEL_LONG_WRAP);
     lv_label_set_text(resultLabel, "No journeys yet");
 
-    // Events
+
     lv_obj_add_event_cb(fromStop, getSelectedStops, LV_EVENT_VALUE_CHANGED, NULL);
     lv_obj_add_event_cb(toStop, getSelectedStops, LV_EVENT_VALUE_CHANGED, NULL);
 }
 
-*/

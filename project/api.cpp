@@ -127,7 +127,7 @@ TransportList readDepartures(const JsonDocument& json) {
     
     return transports;
 } 
-/*
+
 
 JsonDocument getJourneys(String fromId, String toId)
 {
@@ -138,7 +138,7 @@ JsonDocument getJourneys(String fromId, String toId)
     }
 
     String Key = String();
-    Key = String(api_Key); 
+    Key = String(RESROBOT_API_KEY);
 
     HTTPClient http;
 
@@ -171,4 +171,3 @@ JsonDocument getJourneys(String fromId, String toId)
 }
 
 
-*/
